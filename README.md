@@ -26,11 +26,14 @@ Make sure you visit [https://developers.komfo.com](https://developers.komfo.com)
 
 ## Komfo API version
 
-KomfoSharp supports Komfo API v1.
+KomfoSharp supports Komfo API v1, including:
+- Authentication
+- Twitter followers
+- Advertising
 
 ## Supported Platforms
 
-- .NET 4.5
+- .NET 4.5 and higher
 
 ## Asynchronous approach
 
