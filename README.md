@@ -1,6 +1,6 @@
 # KomfoSharp
 
-KomfoSharp is a .NET wrapper for the Komfo API.
+KomfoSharp is a .NET wrapper for the Komfo API. Find [more](https://sitecore.github.io/komfosharp) about KomfoSharp API.
 
 ## Installation
 
