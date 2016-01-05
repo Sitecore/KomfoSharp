@@ -6,6 +6,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+.vs/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -131,6 +132,10 @@ DocProject/Help/*.hhk
 DocProject/Help/*.hhp
 DocProject/Help/Html2
 DocProject/Help/html
+
+# Sandcastle Help File Builder is a documentation generator add-in
+*Documentation/
+!*Documentation/*.shfbproj
 
 # Click-Once directory
 publish/
