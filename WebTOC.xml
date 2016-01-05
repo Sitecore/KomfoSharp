@@ -1,0 +1,1019 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="14276260-85ae-4094-ade3-5b11023386dc" Title="KomfoSharp" Url="html/R_Project_KomfoSharp_10.htm">
+    <HelpTOCNode Id="a15930fc-ac3a-47c4-8ee7-418ecdebcd05" Title="KomfoSharp" Url="html/N_KomfoSharp.htm">
+      <HelpTOCNode Id="a4f901e8-c97a-4715-a0ac-2fd8d04b367d" Title="IKomfoSessions Interface" Url="html/T_KomfoSharp_IKomfoSessions.htm">
+        <HelpTOCNode Id="b3528e62-a83f-45b0-8b7c-1ca455d5f490" Title="IKomfoSessions Properties" Url="html/Properties_T_KomfoSharp_IKomfoSessions.htm">
+          <HelpTOCNode Title="Authenticated Property " Url="html/P_KomfoSharp_IKomfoSessions_Authenticated.htm" />
+          <HelpTOCNode Title="NonAuthenticated Property " Url="html/P_KomfoSharp_IKomfoSessions_NonAuthenticated.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6e3f72e5-2643-408d-a182-665d2757ce87" Title="KomfoSessions Class" Url="html/T_KomfoSharp_KomfoSessions.htm">
+        <HelpTOCNode Id="f4fa4d7b-97d7-49e4-aad0-dd0e66597af3" Title="KomfoSessions Constructor " Url="html/Overload_KomfoSharp_KomfoSessions__ctor.htm">
+          <HelpTOCNode Title="KomfoSessions Constructor " Url="html/M_KomfoSharp_KomfoSessions__ctor.htm" />
+          <HelpTOCNode Title="KomfoSessions Constructor (IConfigurationProvider, IKomfoProvider)" Url="html/M_KomfoSharp_KomfoSessions__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="97b5598a-91c5-4f76-8ce6-fc3ff7afaabf" Title="KomfoSessions Properties" Url="html/Properties_T_KomfoSharp_KomfoSessions.htm">
+          <HelpTOCNode Title="Authenticated Property " Url="html/P_KomfoSharp_KomfoSessions_Authenticated.htm" />
+          <HelpTOCNode Title="NonAuthenticated Property " Url="html/P_KomfoSharp_KomfoSessions_NonAuthenticated.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="KomfoSessions Methods" Url="html/Methods_T_KomfoSharp_KomfoSessions.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ff3b3b5a-2a5e-4bff-a72e-d3feaf6ead94" Title="KomfoSharp.Configuration Namespaces" Url="html/G_KomfoSharp_Configuration.htm">
+      <HelpTOCNode Id="52a67a29-f54e-4624-8507-58cd76521737" Title="KomfoSharp.Configuration" Url="html/N_KomfoSharp_Configuration.htm">
+        <HelpTOCNode Id="61b9c1f0-46e1-422d-b8af-23c3c4d8576b" Title="Configuration Class" Url="html/T_KomfoSharp_Configuration_Configuration.htm">
+          <HelpTOCNode Title="Configuration Constructor " Url="html/M_KomfoSharp_Configuration_Configuration__ctor.htm" />
+          <HelpTOCNode Id="e65f641c-2b79-4f09-8d6d-78d08ee8cd7f" Title="Configuration Properties" Url="html/Properties_T_KomfoSharp_Configuration_Configuration.htm">
+            <HelpTOCNode Title="EndpointsConfiguration Property " Url="html/P_KomfoSharp_Configuration_Configuration_EndpointsConfiguration.htm" />
+            <HelpTOCNode Title="PollingConfiguration Property " Url="html/P_KomfoSharp_Configuration_Configuration_PollingConfiguration.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Configuration Methods" Url="html/Methods_T_KomfoSharp_Configuration_Configuration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="96f099cb-b9f1-44fb-971f-2dfdea558a09" Title="EndpointsConfiguration Class" Url="html/T_KomfoSharp_Configuration_EndpointsConfiguration.htm">
+          <HelpTOCNode Title="EndpointsConfiguration Constructor " Url="html/M_KomfoSharp_Configuration_EndpointsConfiguration__ctor.htm" />
+          <HelpTOCNode Id="bc2093e7-08b2-4603-b332-44eea76673b6" Title="EndpointsConfiguration Properties" Url="html/Properties_T_KomfoSharp_Configuration_EndpointsConfiguration.htm">
+            <HelpTOCNode Title="CampaignCustomAudiences Property " Url="html/P_KomfoSharp_Configuration_EndpointsConfiguration_CampaignCustomAudiences.htm" />
+            <HelpTOCNode Title="Campaigns Property " Url="html/P_KomfoSharp_Configuration_EndpointsConfiguration_Campaigns.htm" />
+            <HelpTOCNode Title="CustomAudience Property " Url="html/P_KomfoSharp_Configuration_EndpointsConfiguration_CustomAudience.htm" />
+            <HelpTOCNode Title="CustomAudiences Property " Url="html/P_KomfoSharp_Configuration_EndpointsConfiguration_CustomAudiences.htm" />
+            <HelpTOCNode Title="CustomAudienceStatus Property " Url="html/P_KomfoSharp_Configuration_EndpointsConfiguration_CustomAudienceStatus.htm" />
+            <HelpTOCNode Title="CustomAudienceUsers Property " Url="html/P_KomfoSharp_Configuration_EndpointsConfiguration_CustomAudienceUsers.htm" />
+            <HelpTOCNode Title="Metrics Property " Url="html/P_KomfoSharp_Configuration_EndpointsConfiguration_Metrics.htm" />
+            <HelpTOCNode Title="Stream Property " Url="html/P_KomfoSharp_Configuration_EndpointsConfiguration_Stream.htm" />
+            <HelpTOCNode Title="Tokens Property " Url="html/P_KomfoSharp_Configuration_EndpointsConfiguration_Tokens.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="6c16554f-0341-46d6-8af3-01bace9a3d36" Title="EndpointsConfiguration Methods" Url="html/Methods_T_KomfoSharp_Configuration_EndpointsConfiguration.htm">
+            <HelpTOCNode Title="GetEndpoint(T) Method " Url="html/M_KomfoSharp_Configuration_EndpointsConfiguration_GetEndpoint__1.htm" />
+            <HelpTOCNode Title="GetEndpointUrl Method " Url="html/M_KomfoSharp_Configuration_EndpointsConfiguration_GetEndpointUrl.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="f6d52d1e-7077-49f8-a536-3a75c1ffae78" Title="PollingConfiguration Class" Url="html/T_KomfoSharp_Configuration_PollingConfiguration.htm">
+          <HelpTOCNode Title="PollingConfiguration Constructor " Url="html/M_KomfoSharp_Configuration_PollingConfiguration__ctor.htm" />
+          <HelpTOCNode Id="e46f1d73-882c-49d5-a544-498a06276697" Title="PollingConfiguration Properties" Url="html/Properties_T_KomfoSharp_Configuration_PollingConfiguration.htm">
+            <HelpTOCNode Title="DefaultAttemptsCount Property " Url="html/P_KomfoSharp_Configuration_PollingConfiguration_DefaultAttemptsCount.htm" />
+            <HelpTOCNode Title="DefaultTimeInterval Property " Url="html/P_KomfoSharp_Configuration_PollingConfiguration_DefaultTimeInterval.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="PollingConfiguration Methods" Url="html/Methods_T_KomfoSharp_Configuration_PollingConfiguration.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c22e9276-de9c-4dbe-8357-c2779d625ed6" Title="KomfoSharp.Configuration.Endpoints" Url="html/N_KomfoSharp_Configuration_Endpoints.htm">
+        <HelpTOCNode Id="2f88e3a8-7d7b-4959-bd17-2f687917cd86" Title="CampaignCustomAudiencesEndpoint Class" Url="html/T_KomfoSharp_Configuration_Endpoints_CampaignCustomAudiencesEndpoint.htm">
+          <HelpTOCNode Title="CampaignCustomAudiencesEndpoint Constructor " Url="html/M_KomfoSharp_Configuration_Endpoints_CampaignCustomAudiencesEndpoint__ctor.htm" />
+          <HelpTOCNode Title="CampaignCustomAudiencesEndpoint Properties" Url="html/Properties_T_KomfoSharp_Configuration_Endpoints_CampaignCustomAudiencesEndpoint.htm" />
+          <HelpTOCNode Title="CampaignCustomAudiencesEndpoint Methods" Url="html/Methods_T_KomfoSharp_Configuration_Endpoints_CampaignCustomAudiencesEndpoint.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="52deae16-b525-4af9-9374-cf40e3afe47f" Title="CampaignCustomAudiencesEndpoint.Parameters Class" Url="html/T_KomfoSharp_Configuration_Endpoints_CampaignCustomAudiencesEndpoint_Parameters.htm">
+          <HelpTOCNode Id="e76c9fff-6950-4f6b-a24e-d02269e6b668" Title="Parameters Fields" Url="html/Fields_T_KomfoSharp_Configuration_Endpoints_CampaignCustomAudiencesEndpoint_Parameters.htm">
+            <HelpTOCNode Title="CampaignId Field" Url="html/F_KomfoSharp_Configuration_Endpoints_CampaignCustomAudiencesEndpoint_Parameters_CampaignId.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="7a3178a2-a122-455f-a430-a1c57c8ff01b" Title="CampaignsEndpoint Class" Url="html/T_KomfoSharp_Configuration_Endpoints_CampaignsEndpoint.htm">
+          <HelpTOCNode Title="CampaignsEndpoint Constructor " Url="html/M_KomfoSharp_Configuration_Endpoints_CampaignsEndpoint__ctor.htm" />
+          <HelpTOCNode Title="CampaignsEndpoint Properties" Url="html/Properties_T_KomfoSharp_Configuration_Endpoints_CampaignsEndpoint.htm" />
+          <HelpTOCNode Title="CampaignsEndpoint Methods" Url="html/Methods_T_KomfoSharp_Configuration_Endpoints_CampaignsEndpoint.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a3c1b357-6225-4338-9474-499a6e8b63d0" Title="CustomAudienceEndpoint Class" Url="html/T_KomfoSharp_Configuration_Endpoints_CustomAudienceEndpoint.htm">
+          <HelpTOCNode Title="CustomAudienceEndpoint Constructor " Url="html/M_KomfoSharp_Configuration_Endpoints_CustomAudienceEndpoint__ctor.htm" />
+          <HelpTOCNode Title="CustomAudienceEndpoint Properties" Url="html/Properties_T_KomfoSharp_Configuration_Endpoints_CustomAudienceEndpoint.htm" />
+          <HelpTOCNode Title="CustomAudienceEndpoint Methods" Url="html/Methods_T_KomfoSharp_Configuration_Endpoints_CustomAudienceEndpoint.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="2da5809b-b7e1-4a5b-9d55-f734bd7760f8" Title="CustomAudienceEndpoint.Parameters Class" Url="html/T_KomfoSharp_Configuration_Endpoints_CustomAudienceEndpoint_Parameters.htm">
+          <HelpTOCNode Id="45cf97ad-a2d5-46cc-876f-d726e1e20ab4" Title="Parameters Fields" Url="html/Fields_T_KomfoSharp_Configuration_Endpoints_CustomAudienceEndpoint_Parameters.htm">
+            <HelpTOCNode Title="AudienceId Field" Url="html/F_KomfoSharp_Configuration_Endpoints_CustomAudienceEndpoint_Parameters_AudienceId.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="2d711b40-a586-473a-8582-c2459ba54b1c" Title="CustomAudiencesEndpoint Class" Url="html/T_KomfoSharp_Configuration_Endpoints_CustomAudiencesEndpoint.htm">
+          <HelpTOCNode Title="CustomAudiencesEndpoint Constructor " Url="html/M_KomfoSharp_Configuration_Endpoints_CustomAudiencesEndpoint__ctor.htm" />
+          <HelpTOCNode Title="CustomAudiencesEndpoint Properties" Url="html/Properties_T_KomfoSharp_Configuration_Endpoints_CustomAudiencesEndpoint.htm" />
+          <HelpTOCNode Title="CustomAudiencesEndpoint Methods" Url="html/Methods_T_KomfoSharp_Configuration_Endpoints_CustomAudiencesEndpoint.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a6305f94-cb77-4b8b-8c67-4854b02ef79e" Title="CustomAudienceStatusEndpoint Class" Url="html/T_KomfoSharp_Configuration_Endpoints_CustomAudienceStatusEndpoint.htm">
+          <HelpTOCNode Title="CustomAudienceStatusEndpoint Constructor " Url="html/M_KomfoSharp_Configuration_Endpoints_CustomAudienceStatusEndpoint__ctor.htm" />
+          <HelpTOCNode Title="CustomAudienceStatusEndpoint Properties" Url="html/Properties_T_KomfoSharp_Configuration_Endpoints_CustomAudienceStatusEndpoint.htm" />
+          <HelpTOCNode Title="CustomAudienceStatusEndpoint Methods" Url="html/Methods_T_KomfoSharp_Configuration_Endpoints_CustomAudienceStatusEndpoint.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d875816c-75d9-460e-bce2-216155660118" Title="CustomAudienceStatusEndpoint.Parameters Class" Url="html/T_KomfoSharp_Configuration_Endpoints_CustomAudienceStatusEndpoint_Parameters.htm">
+          <HelpTOCNode Id="a8fb10bf-6ee4-4cd5-a3fb-e40598d92b61" Title="Parameters Fields" Url="html/Fields_T_KomfoSharp_Configuration_Endpoints_CustomAudienceStatusEndpoint_Parameters.htm">
+            <HelpTOCNode Title="AudienceId Field" Url="html/F_KomfoSharp_Configuration_Endpoints_CustomAudienceStatusEndpoint_Parameters_AudienceId.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="b827c467-cccd-45d2-8614-6afbd059d879" Title="CustomAudienceUsersEndpoint Class" Url="html/T_KomfoSharp_Configuration_Endpoints_CustomAudienceUsersEndpoint.htm">
+          <HelpTOCNode Title="CustomAudienceUsersEndpoint Constructor " Url="html/M_KomfoSharp_Configuration_Endpoints_CustomAudienceUsersEndpoint__ctor.htm" />
+          <HelpTOCNode Id="373b8124-caa5-4675-b539-d1327b7c8afc" Title="CustomAudienceUsersEndpoint Properties" Url="html/Properties_T_KomfoSharp_Configuration_Endpoints_CustomAudienceUsersEndpoint.htm">
+            <HelpTOCNode Title="MaxEntriesPerCall Property " Url="html/P_KomfoSharp_Configuration_Endpoints_CustomAudienceUsersEndpoint_MaxEntriesPerCall.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CustomAudienceUsersEndpoint Methods" Url="html/Methods_T_KomfoSharp_Configuration_Endpoints_CustomAudienceUsersEndpoint.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f3fbb06e-b370-4389-8f6a-30575ba20c18" Title="CustomAudienceUsersEndpoint.Parameters Class" Url="html/T_KomfoSharp_Configuration_Endpoints_CustomAudienceUsersEndpoint_Parameters.htm">
+          <HelpTOCNode Id="44995c37-8870-4aec-a40d-aea2f8e57f36" Title="Parameters Fields" Url="html/Fields_T_KomfoSharp_Configuration_Endpoints_CustomAudienceUsersEndpoint_Parameters.htm">
+            <HelpTOCNode Title="AudienceId Field" Url="html/F_KomfoSharp_Configuration_Endpoints_CustomAudienceUsersEndpoint_Parameters_AudienceId.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="f6476cd1-0355-414a-b114-be47d93ccb67" Title="EndpointBase Class" Url="html/T_KomfoSharp_Configuration_Endpoints_EndpointBase.htm">
+          <HelpTOCNode Id="5000bd2b-2626-4d07-990c-042bc8a50a4f" Title="EndpointBase Properties" Url="html/Properties_T_KomfoSharp_Configuration_Endpoints_EndpointBase.htm">
+            <HelpTOCNode Title="Path Property " Url="html/P_KomfoSharp_Configuration_Endpoints_EndpointBase_Path.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="EndpointBase Methods" Url="html/Methods_T_KomfoSharp_Configuration_Endpoints_EndpointBase.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="38391ba3-7df1-4118-a1e1-12cf0e5678e3" Title="MetricsEndpoint Class" Url="html/T_KomfoSharp_Configuration_Endpoints_MetricsEndpoint.htm">
+          <HelpTOCNode Title="MetricsEndpoint Constructor " Url="html/M_KomfoSharp_Configuration_Endpoints_MetricsEndpoint__ctor.htm" />
+          <HelpTOCNode Id="6d78ebc0-00e8-4e68-a465-f08c3d8ccf68" Title="MetricsEndpoint Properties" Url="html/Properties_T_KomfoSharp_Configuration_Endpoints_MetricsEndpoint.htm">
+            <HelpTOCNode Title="MaxTwitterHandlesPerCall Property " Url="html/P_KomfoSharp_Configuration_Endpoints_MetricsEndpoint_MaxTwitterHandlesPerCall.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="MetricsEndpoint Methods" Url="html/Methods_T_KomfoSharp_Configuration_Endpoints_MetricsEndpoint.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="45b1dbcd-0a26-491e-98fc-43eac05da0f3" Title="StreamEndpoint Class" Url="html/T_KomfoSharp_Configuration_Endpoints_StreamEndpoint.htm">
+          <HelpTOCNode Title="StreamEndpoint Constructor " Url="html/M_KomfoSharp_Configuration_Endpoints_StreamEndpoint__ctor.htm" />
+          <HelpTOCNode Id="af414c05-69ac-4bf6-a16d-a4eb80de0683" Title="StreamEndpoint Properties" Url="html/Properties_T_KomfoSharp_Configuration_Endpoints_StreamEndpoint.htm">
+            <HelpTOCNode Title="MaxResultsPerCall Property " Url="html/P_KomfoSharp_Configuration_Endpoints_StreamEndpoint_MaxResultsPerCall.htm" />
+            <HelpTOCNode Title="MaxTwitterHandlesPerCall Property " Url="html/P_KomfoSharp_Configuration_Endpoints_StreamEndpoint_MaxTwitterHandlesPerCall.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="StreamEndpoint Methods" Url="html/Methods_T_KomfoSharp_Configuration_Endpoints_StreamEndpoint.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="13bad55c-9695-4e3e-a4d2-432a97adda62" Title="TokensEndpoint Class" Url="html/T_KomfoSharp_Configuration_Endpoints_TokensEndpoint.htm">
+          <HelpTOCNode Title="TokensEndpoint Constructor " Url="html/M_KomfoSharp_Configuration_Endpoints_TokensEndpoint__ctor.htm" />
+          <HelpTOCNode Title="TokensEndpoint Properties" Url="html/Properties_T_KomfoSharp_Configuration_Endpoints_TokensEndpoint.htm" />
+          <HelpTOCNode Title="TokensEndpoint Methods" Url="html/Methods_T_KomfoSharp_Configuration_Endpoints_TokensEndpoint.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e3a6084f-55d7-48fb-8519-c07ad4a8a36b" Title="KomfoSharp.Configuration.Providers" Url="html/N_KomfoSharp_Configuration_Providers.htm">
+        <HelpTOCNode Id="a188ec50-58bc-41d4-86dc-ef4b9c61aaee" Title="IConfigurationProvider Interface" Url="html/T_KomfoSharp_Configuration_Providers_IConfigurationProvider.htm">
+          <HelpTOCNode Id="d2756363-7f80-448f-a044-6f3ca3d7d1d1" Title="IConfigurationProvider Methods" Url="html/Methods_T_KomfoSharp_Configuration_Providers_IConfigurationProvider.htm">
+            <HelpTOCNode Title="GetConfiguration Method " Url="html/M_KomfoSharp_Configuration_Providers_IConfigurationProvider_GetConfiguration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="5065cb28-724c-4bfa-8646-4162b85e44e2" Title="IXmlSource Interface" Url="html/T_KomfoSharp_Configuration_Providers_IXmlSource.htm">
+          <HelpTOCNode Id="781aedbf-6360-47e2-989b-e95064f7ca71" Title="IXmlSource Methods" Url="html/Methods_T_KomfoSharp_Configuration_Providers_IXmlSource.htm">
+            <HelpTOCNode Title="GetXml Method " Url="html/M_KomfoSharp_Configuration_Providers_IXmlSource_GetXml.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="33b1304d-58e0-4a5b-8e14-175b2a4de7ac" Title="XmlConfigurationProviderBase Class" Url="html/T_KomfoSharp_Configuration_Providers_XmlConfigurationProviderBase.htm">
+          <HelpTOCNode Id="9b83a86c-b627-46ef-b056-02878c2bad82" Title="XmlConfigurationProviderBase Methods" Url="html/Methods_T_KomfoSharp_Configuration_Providers_XmlConfigurationProviderBase.htm">
+            <HelpTOCNode Title="GetConfiguration Method " Url="html/M_KomfoSharp_Configuration_Providers_XmlConfigurationProviderBase_GetConfiguration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="43569e0b-2f4f-4c24-8232-13861d7b71f1" Title="KomfoSharp.Configuration.Providers.AppConfig" Url="html/N_KomfoSharp_Configuration_Providers_AppConfig.htm">
+        <HelpTOCNode Id="f4ee4055-5484-43c5-8acc-a998e87ac040" Title="AppConfigConfigurationProvider Class" Url="html/T_KomfoSharp_Configuration_Providers_AppConfig_AppConfigConfigurationProvider.htm">
+          <HelpTOCNode Id="6f67ae4c-c4f5-4b9a-a3ff-29ec546f9265" Title="AppConfigConfigurationProvider Constructor " Url="html/Overload_KomfoSharp_Configuration_Providers_AppConfig_AppConfigConfigurationProvider__ctor.htm">
+            <HelpTOCNode Title="AppConfigConfigurationProvider Constructor " Url="html/M_KomfoSharp_Configuration_Providers_AppConfig_AppConfigConfigurationProvider__ctor.htm" />
+            <HelpTOCNode Title="AppConfigConfigurationProvider Constructor (IXmlSource)" Url="html/M_KomfoSharp_Configuration_Providers_AppConfig_AppConfigConfigurationProvider__ctor_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="AppConfigConfigurationProvider Methods" Url="html/Methods_T_KomfoSharp_Configuration_Providers_AppConfig_AppConfigConfigurationProvider.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="992ff0e0-5423-4165-8606-999c86441ad6" Title="KomfoSharp.Model" Url="html/N_KomfoSharp_Model.htm">
+      <HelpTOCNode Id="0316bbb6-b88f-4d6b-837b-55dfbd4da72a" Title="Campaign Class" Url="html/T_KomfoSharp_Model_Campaign.htm">
+        <HelpTOCNode Title="Campaign Constructor " Url="html/M_KomfoSharp_Model_Campaign__ctor.htm" />
+        <HelpTOCNode Id="7d79cf34-4212-43e5-a4a3-0eae2474116f" Title="Campaign Properties" Url="html/Properties_T_KomfoSharp_Model_Campaign.htm">
+          <HelpTOCNode Title="Description Property " Url="html/P_KomfoSharp_Model_Campaign_Description.htm" />
+          <HelpTOCNode Title="ExtCampaignId Property " Url="html/P_KomfoSharp_Model_Campaign_ExtCampaignId.htm" />
+          <HelpTOCNode Title="ExtCampaignKey Property " Url="html/P_KomfoSharp_Model_Campaign_ExtCampaignKey.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_KomfoSharp_Model_Campaign_Id.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_KomfoSharp_Model_Campaign_Name.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Campaign Methods" Url="html/Methods_T_KomfoSharp_Model_Campaign.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9fc57189-3b0d-42a5-9a11-59529b2e8249" Title="CustomAudience Class" Url="html/T_KomfoSharp_Model_CustomAudience.htm">
+        <HelpTOCNode Title="CustomAudience Constructor " Url="html/M_KomfoSharp_Model_CustomAudience__ctor.htm" />
+        <HelpTOCNode Id="e213abad-c8d3-4546-8b28-cc1a49f95554" Title="CustomAudience Properties" Url="html/Properties_T_KomfoSharp_Model_CustomAudience.htm">
+          <HelpTOCNode Title="CampaignIds Property " Url="html/P_KomfoSharp_Model_CustomAudience_CampaignIds.htm" />
+          <HelpTOCNode Title="Description Property " Url="html/P_KomfoSharp_Model_CustomAudience_Description.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_KomfoSharp_Model_CustomAudience_Id.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_KomfoSharp_Model_CustomAudience_Name.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CustomAudience Methods" Url="html/Methods_T_KomfoSharp_Model_CustomAudience.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bf6fc18c-7f7c-4b97-9e92-cb05e7a3df95" Title="CustomAudienceStatus Class" Url="html/T_KomfoSharp_Model_CustomAudienceStatus.htm">
+        <HelpTOCNode Title="CustomAudienceStatus Constructor " Url="html/M_KomfoSharp_Model_CustomAudienceStatus__ctor.htm" />
+        <HelpTOCNode Id="257d119c-1ef6-4aff-b898-252b3096216b" Title="CustomAudienceStatus Properties" Url="html/Properties_T_KomfoSharp_Model_CustomAudienceStatus.htm">
+          <HelpTOCNode Title="ApproximateSize Property " Url="html/P_KomfoSharp_Model_CustomAudienceStatus_ApproximateSize.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_KomfoSharp_Model_CustomAudienceStatus_Id.htm" />
+          <HelpTOCNode Title="InvalidEntries Property " Url="html/P_KomfoSharp_Model_CustomAudienceStatus_InvalidEntries.htm" />
+          <HelpTOCNode Title="UsersDeleted Property " Url="html/P_KomfoSharp_Model_CustomAudienceStatus_UsersDeleted.htm" />
+          <HelpTOCNode Title="UsersInserted Property " Url="html/P_KomfoSharp_Model_CustomAudienceStatus_UsersInserted.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CustomAudienceStatus Methods" Url="html/Methods_T_KomfoSharp_Model_CustomAudienceStatus.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a7482f8a-ca84-47c2-8d8f-8f707ffd8fa6" Title="Engagement Class" Url="html/T_KomfoSharp_Model_Engagement.htm">
+        <HelpTOCNode Title="Engagement Constructor " Url="html/M_KomfoSharp_Model_Engagement__ctor.htm" />
+        <HelpTOCNode Id="5a66a600-46f9-4c07-81d9-9665699840ca" Title="Engagement Properties" Url="html/Properties_T_KomfoSharp_Model_Engagement.htm">
+          <HelpTOCNode Title="Replies Property " Url="html/P_KomfoSharp_Model_Engagement_Replies.htm" />
+          <HelpTOCNode Title="Score Property " Url="html/P_KomfoSharp_Model_Engagement_Score.htm" />
+          <HelpTOCNode Title="Tweets Property " Url="html/P_KomfoSharp_Model_Engagement_Tweets.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Engagement Methods" Url="html/Methods_T_KomfoSharp_Model_Engagement.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="10d17f47-5c94-4a50-aa29-e7245e21b2bc" Title="Metric Class" Url="html/T_KomfoSharp_Model_Metric.htm">
+        <HelpTOCNode Title="Metric Constructor " Url="html/M_KomfoSharp_Model_Metric__ctor.htm" />
+        <HelpTOCNode Id="f7707b71-4ab3-4f4d-a089-ac765856786a" Title="Metric Properties" Url="html/Properties_T_KomfoSharp_Model_Metric.htm">
+          <HelpTOCNode Title="Channel Property " Url="html/P_KomfoSharp_Model_Metric_Channel.htm" />
+          <HelpTOCNode Title="Engagement Property " Url="html/P_KomfoSharp_Model_Metric_Engagement.htm" />
+          <HelpTOCNode Title="RequestHandle Property " Url="html/P_KomfoSharp_Model_Metric_RequestHandle.htm" />
+          <HelpTOCNode Title="Sentiment Property " Url="html/P_KomfoSharp_Model_Metric_Sentiment.htm" />
+          <HelpTOCNode Title="UpdatedTime Property " Url="html/P_KomfoSharp_Model_Metric_UpdatedTime.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Metric Methods" Url="html/Methods_T_KomfoSharp_Model_Metric.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MetricFields Enumeration" Url="html/T_KomfoSharp_Model_MetricFields.htm" />
+      <HelpTOCNode Id="c5999658-01ec-4d4a-83d4-7cb3c6a88305" Title="Sentiment Class" Url="html/T_KomfoSharp_Model_Sentiment.htm">
+        <HelpTOCNode Title="Sentiment Constructor " Url="html/M_KomfoSharp_Model_Sentiment__ctor.htm" />
+        <HelpTOCNode Id="86f0958c-aa86-406b-b343-9e7be7cf530b" Title="Sentiment Properties" Url="html/Properties_T_KomfoSharp_Model_Sentiment.htm">
+          <HelpTOCNode Title="Negative Property " Url="html/P_KomfoSharp_Model_Sentiment_Negative.htm" />
+          <HelpTOCNode Title="Neutral Property " Url="html/P_KomfoSharp_Model_Sentiment_Neutral.htm" />
+          <HelpTOCNode Title="Positive Property " Url="html/P_KomfoSharp_Model_Sentiment_Positive.htm" />
+          <HelpTOCNode Title="Score Property " Url="html/P_KomfoSharp_Model_Sentiment_Score.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Sentiment Methods" Url="html/Methods_T_KomfoSharp_Model_Sentiment.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SentimentScoreValue Enumeration" Url="html/T_KomfoSharp_Model_SentimentScoreValue.htm" />
+      <HelpTOCNode Id="c7a7186b-5ba7-4494-a9bc-7616ae37fe07" Title="Token Class" Url="html/T_KomfoSharp_Model_Token.htm">
+        <HelpTOCNode Title="Token Constructor " Url="html/M_KomfoSharp_Model_Token__ctor.htm" />
+        <HelpTOCNode Id="7ac3a55d-473b-49b1-9d9e-f46521c73329" Title="Token Properties" Url="html/Properties_T_KomfoSharp_Model_Token.htm">
+          <HelpTOCNode Title="AccessToken Property " Url="html/P_KomfoSharp_Model_Token_AccessToken.htm" />
+          <HelpTOCNode Title="ExpiresIn Property " Url="html/P_KomfoSharp_Model_Token_ExpiresIn.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Token Methods" Url="html/Methods_T_KomfoSharp_Model_Token.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TokenScopes Enumeration" Url="html/T_KomfoSharp_Model_TokenScopes.htm" />
+      <HelpTOCNode Id="5ee8f381-18ef-492a-8de6-0857e252bb5b" Title="Tweet Class" Url="html/T_KomfoSharp_Model_Tweet.htm">
+        <HelpTOCNode Title="Tweet Constructor " Url="html/M_KomfoSharp_Model_Tweet__ctor.htm" />
+        <HelpTOCNode Id="332a7171-deba-4fc3-8e29-3f1e068aa69b" Title="Tweet Properties" Url="html/Properties_T_KomfoSharp_Model_Tweet.htm">
+          <HelpTOCNode Title="Channel Property " Url="html/P_KomfoSharp_Model_Tweet_Channel.htm" />
+          <HelpTOCNode Title="CreatedTime Property " Url="html/P_KomfoSharp_Model_Tweet_CreatedTime.htm" />
+          <HelpTOCNode Title="From Property " Url="html/P_KomfoSharp_Model_Tweet_From.htm" />
+          <HelpTOCNode Title="GatheredTime Property " Url="html/P_KomfoSharp_Model_Tweet_GatheredTime.htm" />
+          <HelpTOCNode Title="InReplyToScreenName Property " Url="html/P_KomfoSharp_Model_Tweet_InReplyToScreenName.htm" />
+          <HelpTOCNode Title="InReplyToStatusId Property " Url="html/P_KomfoSharp_Model_Tweet_InReplyToStatusId.htm" />
+          <HelpTOCNode Title="RequestHandle Property " Url="html/P_KomfoSharp_Model_Tweet_RequestHandle.htm" />
+          <HelpTOCNode Title="Text Property " Url="html/P_KomfoSharp_Model_Tweet_Text.htm" />
+          <HelpTOCNode Title="TwId Property " Url="html/P_KomfoSharp_Model_Tweet_TwId.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Tweet Methods" Url="html/Methods_T_KomfoSharp_Model_Tweet.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TweetFields Enumeration" Url="html/T_KomfoSharp_Model_TweetFields.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8f87af8b-a0f5-4d0d-9996-a56878a880c9" Title="KomfoSharp.Provider" Url="html/N_KomfoSharp_Provider.htm">
+      <HelpTOCNode Id="b72df02a-2c47-459a-912d-aec23533daf3" Title="CustomAudienceUserIdentificationType Class" Url="html/T_KomfoSharp_Provider_CustomAudienceUserIdentificationType.htm">
+        <HelpTOCNode Title="CustomAudienceUserIdentificationType Constructor " Url="html/M_KomfoSharp_Provider_CustomAudienceUserIdentificationType__ctor.htm" />
+        <HelpTOCNode Id="6abac403-f8c8-4c55-b13b-7b7c74e45e7c" Title="CustomAudienceUserIdentificationType Properties" Url="html/Properties_T_KomfoSharp_Provider_CustomAudienceUserIdentificationType.htm">
+          <HelpTOCNode Title="Email Property " Url="html/P_KomfoSharp_Provider_CustomAudienceUserIdentificationType_Email.htm" />
+          <HelpTOCNode Title="EmailSha256 Property " Url="html/P_KomfoSharp_Provider_CustomAudienceUserIdentificationType_EmailSha256.htm" />
+          <HelpTOCNode Title="FacebookUid Property " Url="html/P_KomfoSharp_Provider_CustomAudienceUserIdentificationType_FacebookUid.htm" />
+          <HelpTOCNode Title="IdentificationType Property " Url="html/P_KomfoSharp_Provider_CustomAudienceUserIdentificationType_IdentificationType.htm" />
+          <HelpTOCNode Title="IsSha256Version Property " Url="html/P_KomfoSharp_Provider_CustomAudienceUserIdentificationType_IsSha256Version.htm" />
+          <HelpTOCNode Title="Phone Property " Url="html/P_KomfoSharp_Provider_CustomAudienceUserIdentificationType_Phone.htm" />
+          <HelpTOCNode Title="PhoneSha256 Property " Url="html/P_KomfoSharp_Provider_CustomAudienceUserIdentificationType_PhoneSha256.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="79944e79-8ebf-419d-aa01-8e7982205598" Title="CustomAudienceUserIdentificationType Methods" Url="html/Methods_T_KomfoSharp_Provider_CustomAudienceUserIdentificationType.htm">
+          <HelpTOCNode Id="cc419415-2423-408f-9fdd-3d273bc78670" Title="Equals Method " Url="html/Overload_KomfoSharp_Provider_CustomAudienceUserIdentificationType_Equals.htm">
+            <HelpTOCNode Title="Equals Method (Object)" Url="html/M_KomfoSharp_Provider_CustomAudienceUserIdentificationType_Equals_1.htm" />
+            <HelpTOCNode Title="Equals Method (CustomAudienceUserIdentificationType)" Url="html/M_KomfoSharp_Provider_CustomAudienceUserIdentificationType_Equals.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="GetHashCode Method " Url="html/M_KomfoSharp_Provider_CustomAudienceUserIdentificationType_GetHashCode.htm" />
+          <HelpTOCNode Title="ToString Method " Url="html/M_KomfoSharp_Provider_CustomAudienceUserIdentificationType_ToString.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="bce85df3-6e06-4a93-a44f-1687927de120" Title="CustomAudienceUserIdentificationType Operators" Url="html/Operators_T_KomfoSharp_Provider_CustomAudienceUserIdentificationType.htm">
+          <HelpTOCNode Title="Equality Operator " Url="html/M_KomfoSharp_Provider_CustomAudienceUserIdentificationType_op_Equality.htm" />
+          <HelpTOCNode Title="Inequality Operator " Url="html/M_KomfoSharp_Provider_CustomAudienceUserIdentificationType_op_Inequality.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b6f35878-da28-4205-a45a-e532aef80107" Title="IKomfoProvider Interface" Url="html/T_KomfoSharp_Provider_IKomfoProvider.htm">
+        <HelpTOCNode Id="b589077f-2021-48da-8b2e-024a06bdbaab" Title="IKomfoProvider Methods" Url="html/Methods_T_KomfoSharp_Provider_IKomfoProvider.htm">
+          <HelpTOCNode Title="AddCustomAudienceToCampaignAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_AddCustomAudienceToCampaignAsync.htm" />
+          <HelpTOCNode Title="AddEmailsToCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_AddEmailsToCustomAudienceAsync.htm" />
+          <HelpTOCNode Title="AddFacebookIdsToCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_AddFacebookIdsToCustomAudienceAsync.htm" />
+          <HelpTOCNode Title="AddPhoneNumbersToCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_AddPhoneNumbersToCustomAudienceAsync.htm" />
+          <HelpTOCNode Title="CreateCampaignAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_CreateCampaignAsync.htm" />
+          <HelpTOCNode Title="CreateCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_CreateCustomAudienceAsync.htm" />
+          <HelpTOCNode Title="DeleteCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_DeleteCustomAudienceAsync.htm" />
+          <HelpTOCNode Title="RemoveCustomAudienceFromCampaignAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_RemoveCustomAudienceFromCampaignAsync.htm" />
+          <HelpTOCNode Title="RemoveEmailsFromCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_RemoveEmailsFromCustomAudienceAsync.htm" />
+          <HelpTOCNode Title="RemoveFacebookIdsFromCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_RemoveFacebookIdsFromCustomAudienceAsync.htm" />
+          <HelpTOCNode Title="RemovePhoneNumbersFromCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_RemovePhoneNumbersFromCustomAudienceAsync.htm" />
+          <HelpTOCNode Title="RetrieveAccessTokenAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_RetrieveAccessTokenAsync.htm" />
+          <HelpTOCNode Title="RetrieveCampaignsAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_RetrieveCampaignsAsync.htm" />
+          <HelpTOCNode Title="RetrieveCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_RetrieveCustomAudienceAsync.htm" />
+          <HelpTOCNode Id="c377db0b-9491-4387-8219-e3a027ef6d8e" Title="RetrieveCustomAudiencesAsync Method " Url="html/Overload_KomfoSharp_Provider_IKomfoProvider_RetrieveCustomAudiencesAsync.htm">
+            <HelpTOCNode Title="RetrieveCustomAudiencesAsync Method (String)" Url="html/M_KomfoSharp_Provider_IKomfoProvider_RetrieveCustomAudiencesAsync.htm" />
+            <HelpTOCNode Title="RetrieveCustomAudiencesAsync Method (String, String)" Url="html/M_KomfoSharp_Provider_IKomfoProvider_RetrieveCustomAudiencesAsync_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="RetrieveCustomAudienceStatusAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_RetrieveCustomAudienceStatusAsync.htm" />
+          <HelpTOCNode Title="RetrieveMetricsAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_RetrieveMetricsAsync.htm" />
+          <HelpTOCNode Title="RetrieveTweetsAsync Method " Url="html/M_KomfoSharp_Provider_IKomfoProvider_RetrieveTweetsAsync.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6b021360-1161-4cb4-8869-c32e3e1d633e" Title="ISha256Hash Interface" Url="html/T_KomfoSharp_Provider_ISha256Hash.htm">
+        <HelpTOCNode Id="0c4bad69-9a4d-44d1-bf86-30648a36c8e9" Title="ISha256Hash Methods" Url="html/Methods_T_KomfoSharp_Provider_ISha256Hash.htm">
+          <HelpTOCNode Title="Compute Method " Url="html/M_KomfoSharp_Provider_ISha256Hash_Compute.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6eaf720f-3cd8-4f4a-a959-d17aaa129882" Title="KomfoProvider Class" Url="html/T_KomfoSharp_Provider_KomfoProvider.htm">
+        <HelpTOCNode Id="1fa9b34f-3020-4bd0-9595-4f8596509ca9" Title="KomfoProvider Constructor " Url="html/Overload_KomfoSharp_Provider_KomfoProvider__ctor.htm">
+          <HelpTOCNode Title="KomfoProvider Constructor " Url="html/M_KomfoSharp_Provider_KomfoProvider__ctor.htm" />
+          <HelpTOCNode Title="KomfoProvider Constructor (IConfigurationProvider)" Url="html/M_KomfoSharp_Provider_KomfoProvider__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0879c917-3223-4d74-9e4c-ebd8b2266144" Title="KomfoProvider Methods" Url="html/Methods_T_KomfoSharp_Provider_KomfoProvider.htm">
+          <HelpTOCNode Title="AddCustomAudienceToCampaignAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_AddCustomAudienceToCampaignAsync.htm" />
+          <HelpTOCNode Title="AddEmailsToCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_AddEmailsToCustomAudienceAsync.htm" />
+          <HelpTOCNode Title="AddFacebookIdsToCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_AddFacebookIdsToCustomAudienceAsync.htm" />
+          <HelpTOCNode Title="AddPhoneNumbersToCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_AddPhoneNumbersToCustomAudienceAsync.htm" />
+          <HelpTOCNode Title="CreateCampaignAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_CreateCampaignAsync.htm" />
+          <HelpTOCNode Title="CreateCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_CreateCustomAudienceAsync.htm" />
+          <HelpTOCNode Title="DeleteCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_DeleteCustomAudienceAsync.htm" />
+          <HelpTOCNode Title="RemoveCustomAudienceFromCampaignAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_RemoveCustomAudienceFromCampaignAsync.htm" />
+          <HelpTOCNode Title="RemoveEmailsFromCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_RemoveEmailsFromCustomAudienceAsync.htm" />
+          <HelpTOCNode Title="RemoveFacebookIdsFromCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_RemoveFacebookIdsFromCustomAudienceAsync.htm" />
+          <HelpTOCNode Title="RemovePhoneNumbersFromCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_RemovePhoneNumbersFromCustomAudienceAsync.htm" />
+          <HelpTOCNode Title="RetrieveAccessTokenAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_RetrieveAccessTokenAsync.htm" />
+          <HelpTOCNode Title="RetrieveCampaignsAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_RetrieveCampaignsAsync.htm" />
+          <HelpTOCNode Title="RetrieveCustomAudienceAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_RetrieveCustomAudienceAsync.htm" />
+          <HelpTOCNode Id="bffa5dbd-96d5-417a-8f3c-607317ab492b" Title="RetrieveCustomAudiencesAsync Method " Url="html/Overload_KomfoSharp_Provider_KomfoProvider_RetrieveCustomAudiencesAsync.htm">
+            <HelpTOCNode Title="RetrieveCustomAudiencesAsync Method (String)" Url="html/M_KomfoSharp_Provider_KomfoProvider_RetrieveCustomAudiencesAsync.htm" />
+            <HelpTOCNode Title="RetrieveCustomAudiencesAsync Method (String, String)" Url="html/M_KomfoSharp_Provider_KomfoProvider_RetrieveCustomAudiencesAsync_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="RetrieveCustomAudienceStatusAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_RetrieveCustomAudienceStatusAsync.htm" />
+          <HelpTOCNode Title="RetrieveMetricsAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_RetrieveMetricsAsync.htm" />
+          <HelpTOCNode Title="RetrieveTweetsAsync Method " Url="html/M_KomfoSharp_Provider_KomfoProvider_RetrieveTweetsAsync.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="496fcacf-9e28-466a-9d28-f36aec5d37b0" Title="KomfoProviderException Class" Url="html/T_KomfoSharp_Provider_KomfoProviderException.htm">
+        <HelpTOCNode Id="180ddb68-2dee-4a0c-8a9b-eb81c3598dca" Title="KomfoProviderException Constructor " Url="html/Overload_KomfoSharp_Provider_KomfoProviderException__ctor.htm">
+          <HelpTOCNode Title="KomfoProviderException Constructor " Url="html/M_KomfoSharp_Provider_KomfoProviderException__ctor.htm" />
+          <HelpTOCNode Title="KomfoProviderException Constructor (String)" Url="html/M_KomfoSharp_Provider_KomfoProviderException__ctor_1.htm" />
+          <HelpTOCNode Title="KomfoProviderException Constructor (String, Exception)" Url="html/M_KomfoSharp_Provider_KomfoProviderException__ctor_4.htm" />
+          <HelpTOCNode Title="KomfoProviderException Constructor (String, KomfoStatusCode, HttpStatusCode)" Url="html/M_KomfoSharp_Provider_KomfoProviderException__ctor_2.htm" />
+          <HelpTOCNode Title="KomfoProviderException Constructor (String, KomfoStatusCode, HttpStatusCode, Exception)" Url="html/M_KomfoSharp_Provider_KomfoProviderException__ctor_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="112f98dc-e8a6-40b7-b10a-b4272cb026e4" Title="KomfoProviderException Properties" Url="html/Properties_T_KomfoSharp_Provider_KomfoProviderException.htm">
+          <HelpTOCNode Title="HttpStatusCode Property " Url="html/P_KomfoSharp_Provider_KomfoProviderException_HttpStatusCode.htm" />
+          <HelpTOCNode Title="KomfoStatusCode Property " Url="html/P_KomfoSharp_Provider_KomfoProviderException_KomfoStatusCode.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f1135fe1-ac16-406b-a99a-92597be4e9cc" Title="KomfoProviderException Methods" Url="html/Methods_T_KomfoSharp_Provider_KomfoProviderException.htm">
+          <HelpTOCNode Title="GetObjectData Method " Url="html/M_KomfoSharp_Provider_KomfoProviderException_GetObjectData.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="KomfoStatusCode Enumeration" Url="html/T_KomfoSharp_Provider_KomfoStatusCode.htm" />
+      <HelpTOCNode Id="24d47b9a-80a8-422d-911c-176c1e8994dc" Title="Sha256Hash Class" Url="html/T_KomfoSharp_Provider_Sha256Hash.htm">
+        <HelpTOCNode Title="Sha256Hash Constructor " Url="html/M_KomfoSharp_Provider_Sha256Hash__ctor.htm" />
+        <HelpTOCNode Id="6cbc44bc-67a3-4349-9b8c-8f0c7855537c" Title="Sha256Hash Methods" Url="html/Methods_T_KomfoSharp_Provider_Sha256Hash.htm">
+          <HelpTOCNode Title="Compute Method " Url="html/M_KomfoSharp_Provider_Sha256Hash_Compute.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a3701714-2e9a-496b-bd30-8e6b68249368" Title="KomfoSharp.Sessions Namespaces" Url="html/G_KomfoSharp_Sessions.htm">
+      <HelpTOCNode Id="f94fa1f1-6c1e-4b29-a714-d19af884a697" Title="KomfoSharp.Sessions.Authenticated" Url="html/N_KomfoSharp_Sessions_Authenticated.htm">
+        <HelpTOCNode Id="234c6eae-e9f1-451c-95b5-5dcd82bcfd87" Title="AuthenticatedSession Class" Url="html/T_KomfoSharp_Sessions_Authenticated_AuthenticatedSession.htm">
+          <HelpTOCNode Id="0b7f5c05-8265-4c39-b866-6d3074c6af2e" Title="AuthenticatedSession Constructor " Url="html/Overload_KomfoSharp_Sessions_Authenticated_AuthenticatedSession__ctor.htm">
+            <HelpTOCNode Title="AuthenticatedSession Constructor (IConfigurationProvider, AuthenticatedSessionConfiguration)" Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession__ctor.htm" />
+            <HelpTOCNode Title="AuthenticatedSession Constructor (IConfigurationProvider, AuthenticatedSessionConfiguration, IKomfoProvider)" Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession__ctor_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="cdf77afa-47d5-4578-a023-46f73fed1f86" Title="AuthenticatedSession Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_AuthenticatedSession.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_Configuration.htm" />
+            <HelpTOCNode Title="Requests Property " Url="html/P_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_Requests.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="2519d6ab-2c7a-4ec3-8b7d-14b9c0f2a0f6" Title="AuthenticatedSession Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_AuthenticatedSession.htm">
+            <HelpTOCNode Title="Dispose Method " Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_Dispose.htm" />
+            <HelpTOCNode Id="2fdbd161-05de-4d2b-90f4-f657cd350175" Title="ExecuteAsync Method " Url="html/Overload_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_ExecuteAsync.htm">
+              <HelpTOCNode Title="ExecuteAsync Method (IAddCustomAudienceToCampaignRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_ExecuteAsync_1.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (IAddUsersToCustomAudienceRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_ExecuteAsync_8.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (ICampaignCustomAudiencesRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_ExecuteAsync.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (ICampaignsRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_ExecuteAsync_3.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (ICustomAudienceDeleteRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_ExecuteAsync_5.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (ICustomAudienceRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_ExecuteAsync_6.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (ICustomAudiencesRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_ExecuteAsync_10.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (ICustomAudienceStatusRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_ExecuteAsync_7.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (IMetricsRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_ExecuteAsync_12.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (INewCampaignRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_ExecuteAsync_4.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (INewCustomAudienceRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_ExecuteAsync_11.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (IRemoveCustomAudienceFromCampaignRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_ExecuteAsync_2.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (IRemoveUsersFromCustomAudienceRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_ExecuteAsync_9.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (IStreamRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSession_ExecuteAsync_13.htm" />
+            </HelpTOCNode>
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="3edcb1ca-8bae-43f8-b565-7d3ebace2e7d" Title="AuthenticatedSessionConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_AuthenticatedSessionConfiguration.htm">
+          <HelpTOCNode Title="AuthenticatedSessionConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_AuthenticatedSessionConfiguration__ctor.htm" />
+          <HelpTOCNode Id="75c6f15d-cd85-4a63-aa78-bf016d0880b8" Title="AuthenticatedSessionConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_AuthenticatedSessionConfiguration.htm">
+            <HelpTOCNode Title="Token Property " Url="html/P_KomfoSharp_Sessions_Authenticated_AuthenticatedSessionConfiguration_Token.htm" />
+            <HelpTOCNode Title="TokenRenewal Property " Url="html/P_KomfoSharp_Sessions_Authenticated_AuthenticatedSessionConfiguration_TokenRenewal.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="AuthenticatedSessionConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_AuthenticatedSessionConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6af8f193-3553-4f6c-b154-af70717cfc57" Title="IAuthenticatedSession Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession.htm">
+          <HelpTOCNode Id="82f42d34-fd0a-4963-a2cd-d8f13f166892" Title="IAuthenticatedSession Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_Configuration.htm" />
+            <HelpTOCNode Title="Requests Property " Url="html/P_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_Requests.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="bbf7ad31-0065-4e87-9efc-b9ef2542cfb6" Title="IAuthenticatedSession Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession.htm">
+            <HelpTOCNode Id="ea828ff4-ce7a-476c-b139-092f5ea68d14" Title="ExecuteAsync Method " Url="html/Overload_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_ExecuteAsync.htm">
+              <HelpTOCNode Title="ExecuteAsync Method (IAddCustomAudienceToCampaignRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_ExecuteAsync_1.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (IAddUsersToCustomAudienceRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_ExecuteAsync_8.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (ICampaignCustomAudiencesRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_ExecuteAsync.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (ICampaignsRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_ExecuteAsync_3.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (ICustomAudienceDeleteRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_ExecuteAsync_5.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (ICustomAudienceRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_ExecuteAsync_6.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (ICustomAudiencesRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_ExecuteAsync_10.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (ICustomAudienceStatusRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_ExecuteAsync_7.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (IMetricsRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_ExecuteAsync_12.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (INewCampaignRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_ExecuteAsync_4.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (INewCustomAudienceRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_ExecuteAsync_11.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (IRemoveCustomAudienceFromCampaignRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_ExecuteAsync_2.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (IRemoveUsersFromCustomAudienceRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_ExecuteAsync_9.htm" />
+              <HelpTOCNode Title="ExecuteAsync Method (IStreamRequest)" Url="html/M_KomfoSharp_Sessions_Authenticated_IAuthenticatedSession_ExecuteAsync_13.htm" />
+            </HelpTOCNode>
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="c569b51d-2e90-41d1-88eb-26c8c81bc382" Title="TokenRenewalConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_TokenRenewalConfiguration.htm">
+          <HelpTOCNode Title="TokenRenewalConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_TokenRenewalConfiguration__ctor.htm" />
+          <HelpTOCNode Id="aa22db80-1291-4886-82d6-26917d8ef203" Title="TokenRenewalConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_TokenRenewalConfiguration.htm">
+            <HelpTOCNode Title="ClientId Property " Url="html/P_KomfoSharp_Sessions_Authenticated_TokenRenewalConfiguration_ClientId.htm" />
+            <HelpTOCNode Title="ClientSecret Property " Url="html/P_KomfoSharp_Sessions_Authenticated_TokenRenewalConfiguration_ClientSecret.htm" />
+            <HelpTOCNode Title="Enabled Property " Url="html/P_KomfoSharp_Sessions_Authenticated_TokenRenewalConfiguration_Enabled.htm" />
+            <HelpTOCNode Title="Scopes Property " Url="html/P_KomfoSharp_Sessions_Authenticated_TokenRenewalConfiguration_Scopes.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="TokenRenewalConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_TokenRenewalConfiguration.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ae38de74-e68a-45d9-844b-66d6c0ab985f" Title="KomfoSharp.Sessions.Authenticated.Requests" Url="html/N_KomfoSharp_Sessions_Authenticated_Requests.htm">
+        <HelpTOCNode Id="6c8d4c18-ea88-448e-8720-4e075e194630" Title="BaseRequestConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_BaseRequestConfiguration.htm">
+          <HelpTOCNode Id="98d1a260-d5d9-4d8c-8323-e69d4da95f73" Title="BaseRequestConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_BaseRequestConfiguration.htm">
+            <HelpTOCNode Title="Polling Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_BaseRequestConfiguration_Polling.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="BaseRequestConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_BaseRequestConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b3cffc3b-bd31-4145-9636-33be7610f5f9" Title="PollingRequestConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_PollingRequestConfiguration.htm">
+          <HelpTOCNode Title="PollingRequestConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_PollingRequestConfiguration__ctor.htm" />
+          <HelpTOCNode Id="ce211d72-b0f2-4ae1-a6b0-e26767241787" Title="PollingRequestConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_PollingRequestConfiguration.htm">
+            <HelpTOCNode Title="Attempts Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_PollingRequestConfiguration_Attempts.htm" />
+            <HelpTOCNode Title="Enabled Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_PollingRequestConfiguration_Enabled.htm" />
+            <HelpTOCNode Title="Interval Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_PollingRequestConfiguration_Interval.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="PollingRequestConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_PollingRequestConfiguration.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="8af9727e-4b20-4efb-8892-4ff392097e37" Title="KomfoSharp.Sessions.Authenticated.Requests.Ads.Campaigns" Url="html/N_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns.htm">
+        <HelpTOCNode Id="6024cab1-5441-4eaa-b910-60d97a421efe" Title="CampaignsRequest Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_CampaignsRequest.htm">
+          <HelpTOCNode Title="CampaignsRequest Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_CampaignsRequest__ctor.htm" />
+          <HelpTOCNode Id="b0bdd930-a2e2-49af-bfce-c73e7f9e8b84" Title="CampaignsRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_CampaignsRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_CampaignsRequest_Configuration.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CampaignsRequest Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_CampaignsRequest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="aee56b00-ed97-4334-8764-f8aa784e1823" Title="CampaignsRequestConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_CampaignsRequestConfiguration.htm">
+          <HelpTOCNode Title="CampaignsRequestConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_CampaignsRequestConfiguration__ctor.htm" />
+          <HelpTOCNode Title="CampaignsRequestConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_CampaignsRequestConfiguration.htm" />
+          <HelpTOCNode Title="CampaignsRequestConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_CampaignsRequestConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9ec0fc4a-1502-4558-817e-6f0f4e2cff50" Title="CampaignsResponse Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_CampaignsResponse.htm">
+          <HelpTOCNode Title="CampaignsResponse Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_CampaignsResponse__ctor.htm" />
+          <HelpTOCNode Id="e2db4c7f-b7f8-4abb-afc6-d1a90b7fe9a1" Title="CampaignsResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_CampaignsResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_CampaignsResponse_Data.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CampaignsResponse Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_CampaignsResponse.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ee69f967-8b82-45cf-8588-1ae86bdb7205" Title="ICampaignsRequest Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_ICampaignsRequest.htm">
+          <HelpTOCNode Id="a191b667-0a61-4be6-8bc7-075957b03b82" Title="ICampaignsRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_ICampaignsRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_ICampaignsRequest_Configuration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="024d0ca5-8ad9-424b-bae6-29f9390112e3" Title="ICampaignsResponse Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_ICampaignsResponse.htm">
+          <HelpTOCNode Id="b09a0f76-a94c-47e3-8171-c9fddeaca4e5" Title="ICampaignsResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_ICampaignsResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_ICampaignsResponse_Data.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="43a9fddc-9592-465f-a015-01756ee1c6ca" Title="KomfoSharp.Sessions.Authenticated.Requests.Ads.Campaigns.Campaign.CustomAudiences" Url="html/N_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences.htm">
+        <HelpTOCNode Id="614b7f69-b1c4-4c3f-9fa8-822997cb90e7" Title="CampaignCustomAudiencesRequest Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_CampaignCustomAudiencesRequest.htm">
+          <HelpTOCNode Title="CampaignCustomAudiencesRequest Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_CampaignCustomAudiencesRequest__ctor.htm" />
+          <HelpTOCNode Id="cb1ad35f-bb2f-4697-a801-bb20a5592a42" Title="CampaignCustomAudiencesRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_CampaignCustomAudiencesRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_CampaignCustomAudiencesRequest_Configuration.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CampaignCustomAudiencesRequest Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_CampaignCustomAudiencesRequest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="382bfb5e-ce97-4f6c-9b52-d3217bf296f7" Title="CampaignCustomAudiencesRequestConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_CampaignCustomAudiencesRequestConfiguration.htm">
+          <HelpTOCNode Title="CampaignCustomAudiencesRequestConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_CampaignCustomAudiencesRequestConfiguration__ctor.htm" />
+          <HelpTOCNode Id="6250ed66-b7ca-4085-92b3-fbed166e1f96" Title="CampaignCustomAudiencesRequestConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_CampaignCustomAudiencesRequestConfiguration.htm">
+            <HelpTOCNode Title="CampaignId Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_CampaignCustomAudiencesRequestConfiguration_CampaignId.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CampaignCustomAudiencesRequestConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_CampaignCustomAudiencesRequestConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6ac45cc9-1b9a-4cb4-8ed0-27a58706525d" Title="CampaignCustomAudiencesResponse Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_CampaignCustomAudiencesResponse.htm">
+          <HelpTOCNode Title="CampaignCustomAudiencesResponse Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_CampaignCustomAudiencesResponse__ctor.htm" />
+          <HelpTOCNode Id="b3892329-0c20-4f3e-937e-74276c07fda4" Title="CampaignCustomAudiencesResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_CampaignCustomAudiencesResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_CampaignCustomAudiencesResponse_Data.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CampaignCustomAudiencesResponse Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_CampaignCustomAudiencesResponse.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="76d55695-4ccb-476f-b6c8-20ec03e855df" Title="ICampaignCustomAudiencesRequest Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_ICampaignCustomAudiencesRequest.htm">
+          <HelpTOCNode Id="6445f8f9-68e3-472b-906c-b30e48243946" Title="ICampaignCustomAudiencesRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_ICampaignCustomAudiencesRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_ICampaignCustomAudiencesRequest_Configuration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="64e84840-ef6e-43f8-94cd-f481cc147487" Title="ICampaignCustomAudiencesResponse Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_ICampaignCustomAudiencesResponse.htm">
+          <HelpTOCNode Id="45d6d1a4-53c1-4dfe-8608-729581afc7bc" Title="ICampaignCustomAudiencesResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_ICampaignCustomAudiencesResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_ICampaignCustomAudiencesResponse_Data.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="25a26a3f-d157-4bf8-bb34-6ef31ae4b982" Title="KomfoSharp.Sessions.Authenticated.Requests.Ads.Campaigns.Campaign.CustomAudiences.Update" Url="html/N_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update.htm">
+        <HelpTOCNode Id="cedb4ecb-8c6c-419c-831f-52eebe441c17" Title="UpdateCustomAudiencesInCampaignConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_UpdateCustomAudiencesInCampaignConfiguration.htm">
+          <HelpTOCNode Title="UpdateCustomAudiencesInCampaignConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_UpdateCustomAudiencesInCampaignConfiguration__ctor.htm" />
+          <HelpTOCNode Id="dec65052-b1e6-49b9-932a-1a9dd53bb313" Title="UpdateCustomAudiencesInCampaignConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_UpdateCustomAudiencesInCampaignConfiguration.htm">
+            <HelpTOCNode Title="CustomAudienceId Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_UpdateCustomAudiencesInCampaignConfiguration_CustomAudienceId.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="UpdateCustomAudiencesInCampaignConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_UpdateCustomAudiencesInCampaignConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8d6decf1-6d59-41e4-add2-b02fdfa57e0b" Title="UpdateCustomAudiencesInCampaignRequestConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_UpdateCustomAudiencesInCampaignRequestConfiguration.htm">
+          <HelpTOCNode Title="UpdateCustomAudiencesInCampaignRequestConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_UpdateCustomAudiencesInCampaignRequestConfiguration__ctor.htm" />
+          <HelpTOCNode Id="9329a741-eca6-4c9d-9962-1763ab3e6bc1" Title="UpdateCustomAudiencesInCampaignRequestConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_UpdateCustomAudiencesInCampaignRequestConfiguration.htm">
+            <HelpTOCNode Title="CampaignId Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_UpdateCustomAudiencesInCampaignRequestConfiguration_CampaignId.htm" />
+            <HelpTOCNode Title="CustomAudiences Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_UpdateCustomAudiencesInCampaignRequestConfiguration_CustomAudiences.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="UpdateCustomAudiencesInCampaignRequestConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_UpdateCustomAudiencesInCampaignRequestConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="77d06854-614e-4407-9182-085696b6405b" Title="UpdateCustomAudiencesInCampaignResponseData Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_UpdateCustomAudiencesInCampaignResponseData.htm">
+          <HelpTOCNode Title="UpdateCustomAudiencesInCampaignResponseData Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_UpdateCustomAudiencesInCampaignResponseData__ctor.htm" />
+          <HelpTOCNode Id="0722780c-adeb-4f22-8fc7-bd65561186d1" Title="UpdateCustomAudiencesInCampaignResponseData Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_UpdateCustomAudiencesInCampaignResponseData.htm">
+            <HelpTOCNode Title="CustomAudienceId Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_UpdateCustomAudiencesInCampaignResponseData_CustomAudienceId.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="UpdateCustomAudiencesInCampaignResponseData Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_UpdateCustomAudiencesInCampaignResponseData.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="fcaa48c5-0358-45e5-ab60-399f052fb891" Title="KomfoSharp.Sessions.Authenticated.Requests.Ads.Campaigns.Campaign.CustomAudiences.Update.Add" Url="html/N_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add.htm">
+        <HelpTOCNode Id="f798fbb4-0561-48b5-9823-7cf1e084b7a8" Title="AddCustomAudienceToCampaignRequest Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add_AddCustomAudienceToCampaignRequest.htm">
+          <HelpTOCNode Title="AddCustomAudienceToCampaignRequest Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add_AddCustomAudienceToCampaignRequest__ctor.htm" />
+          <HelpTOCNode Id="ef32ec8b-d060-4d76-be50-9ad3864f10d8" Title="AddCustomAudienceToCampaignRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add_AddCustomAudienceToCampaignRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add_AddCustomAudienceToCampaignRequest_Configuration.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="AddCustomAudienceToCampaignRequest Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add_AddCustomAudienceToCampaignRequest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9a6cce2d-b3b8-4450-947f-29778ae0b47b" Title="AddCustomAudienceToCampaignResponse Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add_AddCustomAudienceToCampaignResponse.htm">
+          <HelpTOCNode Title="AddCustomAudienceToCampaignResponse Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add_AddCustomAudienceToCampaignResponse__ctor.htm" />
+          <HelpTOCNode Id="faff1332-7bbc-4677-9bb5-67f5e61b1c79" Title="AddCustomAudienceToCampaignResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add_AddCustomAudienceToCampaignResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add_AddCustomAudienceToCampaignResponse_Data.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="AddCustomAudienceToCampaignResponse Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add_AddCustomAudienceToCampaignResponse.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="26b9ec95-94da-440d-bc7c-bbbaf2aa3be1" Title="IAddCustomAudienceToCampaignRequest Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add_IAddCustomAudienceToCampaignRequest.htm">
+          <HelpTOCNode Id="17bc7b73-0faa-465e-9520-801f203fb5eb" Title="IAddCustomAudienceToCampaignRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add_IAddCustomAudienceToCampaignRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add_IAddCustomAudienceToCampaignRequest_Configuration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="492dbcf3-e879-4739-a2e8-3a77c9ba30ca" Title="IAddCustomAudienceToCampaignResponse Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add_IAddCustomAudienceToCampaignResponse.htm">
+          <HelpTOCNode Id="83be3428-0e6e-449a-a641-d5a5e6df734a" Title="IAddCustomAudienceToCampaignResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add_IAddCustomAudienceToCampaignResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Add_IAddCustomAudienceToCampaignResponse_Data.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ea866679-248b-48a8-bf95-77bebf384602" Title="KomfoSharp.Sessions.Authenticated.Requests.Ads.Campaigns.Campaign.CustomAudiences.Update.Remove" Url="html/N_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove.htm">
+        <HelpTOCNode Id="fa49488b-4bb0-480f-83b0-29196d1f8ae5" Title="IRemoveCustomAudienceFromCampaignRequest Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove_IRemoveCustomAudienceFromCampaignRequest.htm">
+          <HelpTOCNode Id="ee2ac5f5-109d-4810-8ed4-0b6a33bb4f24" Title="IRemoveCustomAudienceFromCampaignRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove_IRemoveCustomAudienceFromCampaignRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove_IRemoveCustomAudienceFromCampaignRequest_Configuration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="3afacb74-7eb3-4fb5-aeed-140359415c5d" Title="IRemoveCustomAudienceFromCampaignResponse Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove_IRemoveCustomAudienceFromCampaignResponse.htm">
+          <HelpTOCNode Id="c56015ad-59d1-4d51-8406-ca7868aec842" Title="IRemoveCustomAudienceFromCampaignResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove_IRemoveCustomAudienceFromCampaignResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove_IRemoveCustomAudienceFromCampaignResponse_Data.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="2dd80c30-2757-46b6-9a98-4cd5f1ecaa8c" Title="RemoveCustomAudienceFromCampaignRequest Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove_RemoveCustomAudienceFromCampaignRequest.htm">
+          <HelpTOCNode Title="RemoveCustomAudienceFromCampaignRequest Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove_RemoveCustomAudienceFromCampaignRequest__ctor.htm" />
+          <HelpTOCNode Id="ceca97f4-4fdc-4c98-9033-6e0efc4e6f67" Title="RemoveCustomAudienceFromCampaignRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove_RemoveCustomAudienceFromCampaignRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove_RemoveCustomAudienceFromCampaignRequest_Configuration.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="RemoveCustomAudienceFromCampaignRequest Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove_RemoveCustomAudienceFromCampaignRequest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8f906aba-47a4-4308-b7f8-54582eea721d" Title="RemoveCustomAudienceFromCampaignResponse Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove_RemoveCustomAudienceFromCampaignResponse.htm">
+          <HelpTOCNode Title="RemoveCustomAudienceFromCampaignResponse Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove_RemoveCustomAudienceFromCampaignResponse__ctor.htm" />
+          <HelpTOCNode Id="5ad6d90e-a55f-40b7-90d8-140a24ad875a" Title="RemoveCustomAudienceFromCampaignResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove_RemoveCustomAudienceFromCampaignResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove_RemoveCustomAudienceFromCampaignResponse_Data.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="RemoveCustomAudienceFromCampaignResponse Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_Campaign_CustomAudiences_Update_Remove_RemoveCustomAudienceFromCampaignResponse.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="d82095b3-7205-4b51-b382-6aeb03f725df" Title="KomfoSharp.Sessions.Authenticated.Requests.Ads.Campaigns.New" Url="html/N_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New.htm">
+        <HelpTOCNode Id="b2f8d35d-15ce-4e21-8417-62fdbc7743ec" Title="INewCampaignRequest Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_INewCampaignRequest.htm">
+          <HelpTOCNode Id="da9b51d5-60ed-4503-9b58-2fe23fcfd921" Title="INewCampaignRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_INewCampaignRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_INewCampaignRequest_Configuration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="6f96f359-741d-486e-b9dd-a90cc467f8e1" Title="INewCampaignResponse Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_INewCampaignResponse.htm">
+          <HelpTOCNode Id="379b6424-795b-4b04-84ab-c1eb2a844cb3" Title="INewCampaignResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_INewCampaignResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_INewCampaignResponse_Data.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="98ff674b-bc38-45dd-8a7b-023dd2f4599f" Title="NewCampaignRequest Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignRequest.htm">
+          <HelpTOCNode Title="NewCampaignRequest Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignRequest__ctor.htm" />
+          <HelpTOCNode Id="366b69d7-878d-4755-b159-bc6e5c91d07a" Title="NewCampaignRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignRequest_Configuration.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="NewCampaignRequest Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignRequest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="74096be3-ec95-4786-8a2e-bbcf919a1dc5" Title="NewCampaignRequestConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignRequestConfiguration.htm">
+          <HelpTOCNode Title="NewCampaignRequestConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignRequestConfiguration__ctor.htm" />
+          <HelpTOCNode Id="880e5e80-0ec1-4df8-86df-39ee344dd4b9" Title="NewCampaignRequestConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignRequestConfiguration.htm">
+            <HelpTOCNode Title="Campaign Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignRequestConfiguration_Campaign.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="NewCampaignRequestConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignRequestConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e58c4665-10d6-4b06-905b-2ea26d6ed6ee" Title="NewCampaignResponse Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignResponse.htm">
+          <HelpTOCNode Title="NewCampaignResponse Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignResponse__ctor.htm" />
+          <HelpTOCNode Id="d0d48797-9780-4c78-a539-a5192564b2ab" Title="NewCampaignResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignResponse_Data.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="NewCampaignResponse Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignResponse.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5151b093-f2f6-4568-a90e-94744653b4ea" Title="NewCampaignResponseData Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignResponseData.htm">
+          <HelpTOCNode Title="NewCampaignResponseData Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignResponseData__ctor.htm" />
+          <HelpTOCNode Id="cf040065-0219-45ff-9a89-44d55643ab41" Title="NewCampaignResponseData Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignResponseData.htm">
+            <HelpTOCNode Title="CampaignId Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignResponseData_CampaignId.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="NewCampaignResponseData Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_Campaigns_New_NewCampaignResponseData.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="30e664c0-d9fe-42a8-8f18-6790b023638a" Title="KomfoSharp.Sessions.Authenticated.Requests.Ads.CustomAudiences" Url="html/N_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences.htm">
+        <HelpTOCNode Id="1770628f-4511-4a14-ba9c-a61d6b762825" Title="CustomAudiencesRequest Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudiencesRequest.htm">
+          <HelpTOCNode Title="CustomAudiencesRequest Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudiencesRequest__ctor.htm" />
+          <HelpTOCNode Id="fb0be90d-1a34-44a6-9ea4-fbf1ac9cd52f" Title="CustomAudiencesRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudiencesRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudiencesRequest_Configuration.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CustomAudiencesRequest Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudiencesRequest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="253776a7-60fa-4425-a2cd-c5c7d0d0ddef" Title="CustomAudiencesRequestConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudiencesRequestConfiguration.htm">
+          <HelpTOCNode Title="CustomAudiencesRequestConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudiencesRequestConfiguration__ctor.htm" />
+          <HelpTOCNode Title="CustomAudiencesRequestConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudiencesRequestConfiguration.htm" />
+          <HelpTOCNode Title="CustomAudiencesRequestConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudiencesRequestConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="62661012-0a36-4444-b84f-49b2d140ca3d" Title="CustomAudiencesResponse Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudiencesResponse.htm">
+          <HelpTOCNode Title="CustomAudiencesResponse Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudiencesResponse__ctor.htm" />
+          <HelpTOCNode Id="5de59453-b12c-461e-8b7b-b058c58b69ae" Title="CustomAudiencesResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudiencesResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudiencesResponse_Data.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CustomAudiencesResponse Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudiencesResponse.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="460f5e7b-db5c-41db-85e2-0ec8565fa2e6" Title="ICustomAudiencesRequest Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_ICustomAudiencesRequest.htm">
+          <HelpTOCNode Id="2df04886-de77-4217-b822-2b515c709dd6" Title="ICustomAudiencesRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_ICustomAudiencesRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_ICustomAudiencesRequest_Configuration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="4733c449-9e41-4085-b407-cf4aa8bd3819" Title="ICustomAudiencesResponse Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_ICustomAudiencesResponse.htm">
+          <HelpTOCNode Id="f98c4036-9265-4dba-b50a-16492dcbc35d" Title="ICustomAudiencesResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_ICustomAudiencesResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_ICustomAudiencesResponse_Data.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="41c7f812-93e9-4653-9564-a935477605e5" Title="KomfoSharp.Sessions.Authenticated.Requests.Ads.CustomAudiences.CustomAudience" Url="html/N_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience.htm">
+        <HelpTOCNode Id="fa0c2337-79e1-460c-ae18-a3eaccac1ca9" Title="CustomAudienceDeleteRequest Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceDeleteRequest.htm">
+          <HelpTOCNode Title="CustomAudienceDeleteRequest Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceDeleteRequest__ctor.htm" />
+          <HelpTOCNode Id="2e20be0b-89d5-4252-a2b9-3e17590dc702" Title="CustomAudienceDeleteRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceDeleteRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceDeleteRequest_Configuration.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CustomAudienceDeleteRequest Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceDeleteRequest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="2b6c28c7-005e-4ce2-b0db-3b6d8178d450" Title="CustomAudienceDeleteRequestConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceDeleteRequestConfiguration.htm">
+          <HelpTOCNode Title="CustomAudienceDeleteRequestConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceDeleteRequestConfiguration__ctor.htm" />
+          <HelpTOCNode Id="10da252c-6e71-4018-98f4-0b90dd9582b1" Title="CustomAudienceDeleteRequestConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceDeleteRequestConfiguration.htm">
+            <HelpTOCNode Title="CustomAudienceId Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceDeleteRequestConfiguration_CustomAudienceId.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CustomAudienceDeleteRequestConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceDeleteRequestConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a39bc404-dc79-429d-bea3-74e3ce519111" Title="CustomAudienceDeleteResponse Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceDeleteResponse.htm">
+          <HelpTOCNode Title="CustomAudienceDeleteResponse Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceDeleteResponse__ctor.htm" />
+          <HelpTOCNode Id="cdd65e21-8bff-449b-b09f-ef60a2aa8036" Title="CustomAudienceDeleteResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceDeleteResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceDeleteResponse_Data.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CustomAudienceDeleteResponse Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceDeleteResponse.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="55b4da92-2bf7-4e12-a79d-8f98c959e55c" Title="CustomAudienceRequest Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceRequest.htm">
+          <HelpTOCNode Title="CustomAudienceRequest Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceRequest__ctor.htm" />
+          <HelpTOCNode Id="05d498bb-b1fb-453f-8759-f7c340b9e19c" Title="CustomAudienceRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceRequest_Configuration.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CustomAudienceRequest Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceRequest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d2650bf6-639e-4644-91b6-3f88be9bd45d" Title="CustomAudienceRequestConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceRequestConfiguration.htm">
+          <HelpTOCNode Title="CustomAudienceRequestConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceRequestConfiguration__ctor.htm" />
+          <HelpTOCNode Id="f1647dcb-ec7c-444b-80ca-6bb52269ddea" Title="CustomAudienceRequestConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceRequestConfiguration.htm">
+            <HelpTOCNode Title="CustomAudienceId Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceRequestConfiguration_CustomAudienceId.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CustomAudienceRequestConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceRequestConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1004357a-f910-49d1-8d21-3f437c7402e1" Title="CustomAudienceResponse Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceResponse.htm">
+          <HelpTOCNode Title="CustomAudienceResponse Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceResponse__ctor.htm" />
+          <HelpTOCNode Id="c81850bb-3676-4779-86fd-9a6d1c58e4dd" Title="CustomAudienceResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceResponse_Data.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CustomAudienceResponse Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_CustomAudienceResponse.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c9352012-6323-490a-86a8-8b1a06fa1989" Title="ICustomAudienceDeleteRequest Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_ICustomAudienceDeleteRequest.htm">
+          <HelpTOCNode Id="c2a953f8-cc15-4d00-ae7d-fb5ef0ed1b0e" Title="ICustomAudienceDeleteRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_ICustomAudienceDeleteRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_ICustomAudienceDeleteRequest_Configuration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="3ebbb7a8-f720-42f9-86cd-afc973f00575" Title="ICustomAudienceDeleteResponse Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_ICustomAudienceDeleteResponse.htm">
+          <HelpTOCNode Id="4b6ff295-0ef5-43c2-b3e3-efcd6b4b9442" Title="ICustomAudienceDeleteResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_ICustomAudienceDeleteResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_ICustomAudienceDeleteResponse_Data.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="cee686e4-4ec5-4cf6-872c-6dfade2166ad" Title="ICustomAudienceRequest Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_ICustomAudienceRequest.htm">
+          <HelpTOCNode Id="0bc8a299-a571-43c8-a2e9-49bef0154465" Title="ICustomAudienceRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_ICustomAudienceRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_ICustomAudienceRequest_Configuration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="c1957b0f-b0fe-4484-9e3a-c4651225eb4f" Title="ICustomAudienceResponse Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_ICustomAudienceResponse.htm">
+          <HelpTOCNode Id="edd1ac0e-4f61-4525-a6db-f6307c24d21e" Title="ICustomAudienceResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_ICustomAudienceResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_ICustomAudienceResponse_Data.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="4fb298f8-57cb-4f95-b401-27dc757a2d0a" Title="KomfoSharp.Sessions.Authenticated.Requests.Ads.CustomAudiences.CustomAudience.Status" Url="html/N_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status.htm">
+        <HelpTOCNode Id="ae72d47a-b3fc-4a19-b5d5-980a3353bc50" Title="CustomAudienceStatusRequest Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_CustomAudienceStatusRequest.htm">
+          <HelpTOCNode Title="CustomAudienceStatusRequest Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_CustomAudienceStatusRequest__ctor.htm" />
+          <HelpTOCNode Id="076666cf-9198-4d24-9048-18810a4f6a9a" Title="CustomAudienceStatusRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_CustomAudienceStatusRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_CustomAudienceStatusRequest_Configuration.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CustomAudienceStatusRequest Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_CustomAudienceStatusRequest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5c138c5e-37e3-4f0e-b841-0acd4d6de6a0" Title="CustomAudienceStatusRequestConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_CustomAudienceStatusRequestConfiguration.htm">
+          <HelpTOCNode Title="CustomAudienceStatusRequestConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_CustomAudienceStatusRequestConfiguration__ctor.htm" />
+          <HelpTOCNode Id="e5380b6e-9c61-4b61-8fb6-3df53a80d9a8" Title="CustomAudienceStatusRequestConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_CustomAudienceStatusRequestConfiguration.htm">
+            <HelpTOCNode Title="CustomAudienceId Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_CustomAudienceStatusRequestConfiguration_CustomAudienceId.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CustomAudienceStatusRequestConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_CustomAudienceStatusRequestConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="2a095da3-5fae-4f0d-be37-16344059d723" Title="CustomAudienceStatusResponse Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_CustomAudienceStatusResponse.htm">
+          <HelpTOCNode Title="CustomAudienceStatusResponse Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_CustomAudienceStatusResponse__ctor.htm" />
+          <HelpTOCNode Id="a0befb5f-adf9-417d-ba10-4c715d4e5034" Title="CustomAudienceStatusResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_CustomAudienceStatusResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_CustomAudienceStatusResponse_Data.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CustomAudienceStatusResponse Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_CustomAudienceStatusResponse.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ea1b358f-4fb0-4270-8737-21418aabbad2" Title="ICustomAudienceStatusRequest Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_ICustomAudienceStatusRequest.htm">
+          <HelpTOCNode Id="730bf8ae-ff1e-4d23-bd48-51375160e622" Title="ICustomAudienceStatusRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_ICustomAudienceStatusRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_ICustomAudienceStatusRequest_Configuration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="7c2b9b27-d201-4519-bf43-29bfac153451" Title="ICustomAudienceStatusResponse Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_ICustomAudienceStatusResponse.htm">
+          <HelpTOCNode Id="96667339-34a2-45bc-8e73-6edc2f19c598" Title="ICustomAudienceStatusResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_ICustomAudienceStatusResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Status_ICustomAudienceStatusResponse_Data.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="271bd4c4-913d-41e1-931d-6fd1a7b00a63" Title="KomfoSharp.Sessions.Authenticated.Requests.Ads.CustomAudiences.CustomAudience.Users.Update" Url="html/N_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update.htm">
+        <HelpTOCNode Id="b1791aba-b338-473f-8d48-b8a91c2ba2f9" Title="UpdateUsersInCustomAudienceConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceConfiguration.htm">
+          <HelpTOCNode Title="UpdateUsersInCustomAudienceConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceConfiguration__ctor.htm" />
+          <HelpTOCNode Id="05055742-23c8-4525-b7ac-09c49144bd2e" Title="UpdateUsersInCustomAudienceConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceConfiguration.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceConfiguration_Data.htm" />
+            <HelpTOCNode Title="DataType Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceConfiguration_DataType.htm" />
+            <HelpTOCNode Title="FacebookApplicationsIds Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceConfiguration_FacebookApplicationsIds.htm" />
+            <HelpTOCNode Title="IsHashedAlready Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceConfiguration_IsHashedAlready.htm" />
+            <HelpTOCNode Title="WithHashing Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceConfiguration_WithHashing.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="UpdateUsersInCustomAudienceConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="UpdateUsersInCustomAudienceDataType Enumeration" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceDataType.htm" />
+        <HelpTOCNode Id="9ea75fc1-fd57-4ad4-863c-90a346dbf474" Title="UpdateUsersInCustomAudienceRequestConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceRequestConfiguration.htm">
+          <HelpTOCNode Title="UpdateUsersInCustomAudienceRequestConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceRequestConfiguration__ctor.htm" />
+          <HelpTOCNode Id="f71c0814-5e1b-43cf-85c8-70828acc2c6e" Title="UpdateUsersInCustomAudienceRequestConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceRequestConfiguration.htm">
+            <HelpTOCNode Title="CustomAudienceId Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceRequestConfiguration_CustomAudienceId.htm" />
+            <HelpTOCNode Title="Users Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceRequestConfiguration_Users.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="UpdateUsersInCustomAudienceRequestConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceRequestConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8ef7da64-c645-437d-8cb9-e2a4a3c6623a" Title="UpdateUsersInCustomAudienceResponseData Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceResponseData.htm">
+          <HelpTOCNode Title="UpdateUsersInCustomAudienceResponseData Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceResponseData__ctor.htm" />
+          <HelpTOCNode Id="15a7d79f-7965-4905-b7dc-9bb642ee42e8" Title="UpdateUsersInCustomAudienceResponseData Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceResponseData.htm">
+            <HelpTOCNode Title="EntriesReceived Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceResponseData_EntriesReceived.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="UpdateUsersInCustomAudienceResponseData Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_UpdateUsersInCustomAudienceResponseData.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b8e5d2ea-841e-4662-85c4-8fa8be1e7a32" Title="KomfoSharp.Sessions.Authenticated.Requests.Ads.CustomAudiences.CustomAudience.Users.Update.Add" Url="html/N_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add.htm">
+        <HelpTOCNode Id="3fc2e26a-efaf-43e7-ae19-0a21e0470aa7" Title="AddUsersToCustomAudienceRequest Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add_AddUsersToCustomAudienceRequest.htm">
+          <HelpTOCNode Title="AddUsersToCustomAudienceRequest Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add_AddUsersToCustomAudienceRequest__ctor.htm" />
+          <HelpTOCNode Id="93cf5958-6396-4eff-acf8-4ecbfa3c54c9" Title="AddUsersToCustomAudienceRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add_AddUsersToCustomAudienceRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add_AddUsersToCustomAudienceRequest_Configuration.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="AddUsersToCustomAudienceRequest Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add_AddUsersToCustomAudienceRequest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="7b943a84-a09c-461b-b62f-c4e62f13f13b" Title="AddUsersToCustomAudienceResponse Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add_AddUsersToCustomAudienceResponse.htm">
+          <HelpTOCNode Title="AddUsersToCustomAudienceResponse Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add_AddUsersToCustomAudienceResponse__ctor.htm" />
+          <HelpTOCNode Id="7507d221-40b6-4e62-a9ba-8442e9a43de9" Title="AddUsersToCustomAudienceResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add_AddUsersToCustomAudienceResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add_AddUsersToCustomAudienceResponse_Data.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="AddUsersToCustomAudienceResponse Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add_AddUsersToCustomAudienceResponse.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6f4e15c5-0588-4d0a-9f7c-50b7dffd5925" Title="IAddUsersToCustomAudienceRequest Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add_IAddUsersToCustomAudienceRequest.htm">
+          <HelpTOCNode Id="a45af92d-e8b4-4aec-822d-90508e6c0c95" Title="IAddUsersToCustomAudienceRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add_IAddUsersToCustomAudienceRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add_IAddUsersToCustomAudienceRequest_Configuration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="9cdb55a1-0722-4ceb-96df-a6346af80148" Title="IAddUsersToCustomAudienceResponse Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add_IAddUsersToCustomAudienceResponse.htm">
+          <HelpTOCNode Id="79b660f9-28f7-4207-acec-77c16145d953" Title="IAddUsersToCustomAudienceResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add_IAddUsersToCustomAudienceResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Add_IAddUsersToCustomAudienceResponse_Data.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e54faadc-1593-44db-8db0-9ede5ca48c46" Title="KomfoSharp.Sessions.Authenticated.Requests.Ads.CustomAudiences.CustomAudience.Users.Update.Remove" Url="html/N_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove.htm">
+        <HelpTOCNode Id="0e3cd24a-d4e0-4e44-85a6-b318511a7d9f" Title="IRemoveUsersFromCustomAudienceRequest Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove_IRemoveUsersFromCustomAudienceRequest.htm">
+          <HelpTOCNode Id="50326593-636a-46e6-bcd7-3de7818af5d0" Title="IRemoveUsersFromCustomAudienceRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove_IRemoveUsersFromCustomAudienceRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove_IRemoveUsersFromCustomAudienceRequest_Configuration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="475f9d95-9e8b-4912-b08c-6d0b0b31f38a" Title="IRemoveUsersFromCustomAudienceResponse Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove_IRemoveUsersFromCustomAudienceResponse.htm">
+          <HelpTOCNode Id="a9a51398-f53c-476d-b3e4-d8354c0fe799" Title="IRemoveUsersFromCustomAudienceResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove_IRemoveUsersFromCustomAudienceResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove_IRemoveUsersFromCustomAudienceResponse_Data.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="3ead31f6-db86-4b02-a0b6-330669873856" Title="RemoveUsersFromCustomAudienceRequest Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove_RemoveUsersFromCustomAudienceRequest.htm">
+          <HelpTOCNode Title="RemoveUsersFromCustomAudienceRequest Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove_RemoveUsersFromCustomAudienceRequest__ctor.htm" />
+          <HelpTOCNode Id="d151b161-25c6-4026-83d9-2e49d7743b2f" Title="RemoveUsersFromCustomAudienceRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove_RemoveUsersFromCustomAudienceRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove_RemoveUsersFromCustomAudienceRequest_Configuration.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="RemoveUsersFromCustomAudienceRequest Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove_RemoveUsersFromCustomAudienceRequest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="769b0fa0-c0ea-4337-a029-7ccaed7a2694" Title="RemoveUsersFromCustomAudienceResponse Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove_RemoveUsersFromCustomAudienceResponse.htm">
+          <HelpTOCNode Title="RemoveUsersFromCustomAudienceResponse Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove_RemoveUsersFromCustomAudienceResponse__ctor.htm" />
+          <HelpTOCNode Id="e4839607-d446-4c93-acdc-91ef35592b89" Title="RemoveUsersFromCustomAudienceResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove_RemoveUsersFromCustomAudienceResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove_RemoveUsersFromCustomAudienceResponse_Data.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="RemoveUsersFromCustomAudienceResponse Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_CustomAudience_Users_Update_Remove_RemoveUsersFromCustomAudienceResponse.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="820deef3-1a30-41e5-8991-57873d1b0889" Title="KomfoSharp.Sessions.Authenticated.Requests.Ads.CustomAudiences.New" Url="html/N_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New.htm">
+        <HelpTOCNode Id="b5ac1ad0-183e-4dd8-bcb3-940631867233" Title="INewCustomAudienceRequest Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_INewCustomAudienceRequest.htm">
+          <HelpTOCNode Id="e4db991a-100b-4408-a77d-553e2f36555c" Title="INewCustomAudienceRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_INewCustomAudienceRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_INewCustomAudienceRequest_Configuration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="de2ac914-2779-47dc-92ed-8fca79d695bf" Title="INewCustomAudienceResponse Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_INewCustomAudienceResponse.htm">
+          <HelpTOCNode Id="238484f5-3716-4dcc-9e6c-70cd17917ce1" Title="INewCustomAudienceResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_INewCustomAudienceResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_INewCustomAudienceResponse_Data.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="2a3c1e56-bf57-40af-b09c-b1d35cafe94d" Title="NewCustomAudienceRequest Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceRequest.htm">
+          <HelpTOCNode Title="NewCustomAudienceRequest Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceRequest__ctor.htm" />
+          <HelpTOCNode Id="ba231e9e-5468-44f2-bed6-5c467ed0f08b" Title="NewCustomAudienceRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceRequest_Configuration.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="NewCustomAudienceRequest Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceRequest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="68f49187-c104-4c60-bbe4-c5270430eb65" Title="NewCustomAudienceRequestConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceRequestConfiguration.htm">
+          <HelpTOCNode Title="NewCustomAudienceRequestConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceRequestConfiguration__ctor.htm" />
+          <HelpTOCNode Id="d0bea1e7-ace5-4567-b03a-86a8e463bdd1" Title="NewCustomAudienceRequestConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceRequestConfiguration.htm">
+            <HelpTOCNode Title="CustomAudience Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceRequestConfiguration_CustomAudience.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="NewCustomAudienceRequestConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceRequestConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d405d2f1-3e78-4515-bda9-e603713318f3" Title="NewCustomAudienceResponse Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceResponse.htm">
+          <HelpTOCNode Title="NewCustomAudienceResponse Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceResponse__ctor.htm" />
+          <HelpTOCNode Id="47159feb-782d-4012-9bef-8706a4d98b8d" Title="NewCustomAudienceResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceResponse_Data.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="NewCustomAudienceResponse Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceResponse.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="684274de-f31c-4f2d-a3ea-fa8d9379ca60" Title="NewCustomAudienceResponseData Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceResponseData.htm">
+          <HelpTOCNode Title="NewCustomAudienceResponseData Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceResponseData__ctor.htm" />
+          <HelpTOCNode Id="12e858a0-0596-4d53-8800-13bab56bcc78" Title="NewCustomAudienceResponseData Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceResponseData.htm">
+            <HelpTOCNode Title="CustomAudienceId Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceResponseData_CustomAudienceId.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="NewCustomAudienceResponseData Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Ads_CustomAudiences_New_NewCustomAudienceResponseData.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b90a26e2-66f0-46aa-a587-a877fd253e85" Title="KomfoSharp.Sessions.Authenticated.Requests.Twitter.Followers.Metrics" Url="html/N_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics.htm">
+        <HelpTOCNode Id="ba1e8179-50c4-463a-bd3f-4685d30feceb" Title="IMetricsRequest Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_IMetricsRequest.htm">
+          <HelpTOCNode Id="cf5106c1-59a1-4933-970d-89011baf9504" Title="IMetricsRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_IMetricsRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_IMetricsRequest_Configuration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="535addb4-08fd-447b-b7b0-9bdef4c76212" Title="IMetricsResponse Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_IMetricsResponse.htm">
+          <HelpTOCNode Id="769e2f22-282b-49f9-a876-e84df901e20c" Title="IMetricsResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_IMetricsResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_IMetricsResponse_Data.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="0faf01cc-f2ae-4dc9-87a9-84cdf0e47163" Title="MetricsRequest Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_MetricsRequest.htm">
+          <HelpTOCNode Title="MetricsRequest Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_MetricsRequest__ctor.htm" />
+          <HelpTOCNode Id="81ea25aa-8daf-4da8-94e8-74cea13f2917" Title="MetricsRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_MetricsRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_MetricsRequest_Configuration.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="MetricsRequest Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_MetricsRequest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1bac7cb9-63c7-4310-adbd-9fdc1bd2d818" Title="MetricsRequestConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_MetricsRequestConfiguration.htm">
+          <HelpTOCNode Title="MetricsRequestConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_MetricsRequestConfiguration__ctor.htm" />
+          <HelpTOCNode Id="1a8162e8-052d-4e05-9775-f957ac25ed76" Title="MetricsRequestConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_MetricsRequestConfiguration.htm">
+            <HelpTOCNode Title="Fields Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_MetricsRequestConfiguration_Fields.htm" />
+            <HelpTOCNode Title="TwitterHandles Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_MetricsRequestConfiguration_TwitterHandles.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="MetricsRequestConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_MetricsRequestConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1267b9b7-861b-40f1-88b9-02ffacb9986c" Title="MetricsResponse Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_MetricsResponse.htm">
+          <HelpTOCNode Title="MetricsResponse Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_MetricsResponse__ctor.htm" />
+          <HelpTOCNode Id="71ab0718-7005-4298-b279-19943f14a74f" Title="MetricsResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_MetricsResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_MetricsResponse_Data.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="MetricsResponse Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Metrics_MetricsResponse.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6b827623-991d-4546-917d-eeacf410719a" Title="KomfoSharp.Sessions.Authenticated.Requests.Twitter.Followers.Stream" Url="html/N_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream.htm">
+        <HelpTOCNode Id="77575db5-1ba3-414a-935c-faadbbffa1ac" Title="IStreamRequest Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_IStreamRequest.htm">
+          <HelpTOCNode Id="e2b9e814-ee0c-44aa-9c95-6ffc8dddf135" Title="IStreamRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_IStreamRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_IStreamRequest_Configuration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="7422ba23-96a5-4956-bc13-8c5c33a14032" Title="IStreamResponse Interface" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_IStreamResponse.htm">
+          <HelpTOCNode Id="a243325e-5b8e-4e1f-9be1-fa36da436249" Title="IStreamResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_IStreamResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_IStreamResponse_Data.htm" />
+            <HelpTOCNode Title="Next Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_IStreamResponse_Next.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="6be0b668-d54b-41aa-a68b-823b1f12a13a" Title="StreamRequest Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamRequest.htm">
+          <HelpTOCNode Title="StreamRequest Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamRequest__ctor.htm" />
+          <HelpTOCNode Id="3af33b44-75e8-4081-96b0-fccb59f6e29b" Title="StreamRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamRequest_Configuration.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="StreamRequest Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamRequest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="be55b8ea-3443-4c10-8aa1-1da0e7fb8ac1" Title="StreamRequestConfiguration Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamRequestConfiguration.htm">
+          <HelpTOCNode Title="StreamRequestConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamRequestConfiguration__ctor.htm" />
+          <HelpTOCNode Id="bf52c9bc-d90c-46d9-b31e-ab6eb09c80cf" Title="StreamRequestConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamRequestConfiguration.htm">
+            <HelpTOCNode Title="Fields Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamRequestConfiguration_Fields.htm" />
+            <HelpTOCNode Title="Since Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamRequestConfiguration_Since.htm" />
+            <HelpTOCNode Title="TwitterHandles Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamRequestConfiguration_TwitterHandles.htm" />
+            <HelpTOCNode Title="Until Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamRequestConfiguration_Until.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="StreamRequestConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamRequestConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5299b49c-07dc-459f-8f01-aa6554ae64ac" Title="StreamResponse Class" Url="html/T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamResponse.htm">
+          <HelpTOCNode Title="StreamResponse Constructor " Url="html/M_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamResponse__ctor.htm" />
+          <HelpTOCNode Id="0622162f-0e4d-4d06-a4d7-e977f51090bb" Title="StreamResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamResponse_Data.htm" />
+            <HelpTOCNode Title="Next Property " Url="html/P_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamResponse_Next.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="StreamResponse Methods" Url="html/Methods_T_KomfoSharp_Sessions_Authenticated_Requests_Twitter_Followers_Stream_StreamResponse.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="d51d82b1-8464-4599-a5b6-12631976c545" Title="KomfoSharp.Sessions.NonAuthenticated" Url="html/N_KomfoSharp_Sessions_NonAuthenticated.htm">
+        <HelpTOCNode Id="2544e731-76f8-41bc-9b92-d01db46084aa" Title="INonAuthenticatedSession Interface" Url="html/T_KomfoSharp_Sessions_NonAuthenticated_INonAuthenticatedSession.htm">
+          <HelpTOCNode Id="866b9b27-ff4e-4f74-8ab1-5ccf5058ea25" Title="INonAuthenticatedSession Properties" Url="html/Properties_T_KomfoSharp_Sessions_NonAuthenticated_INonAuthenticatedSession.htm">
+            <HelpTOCNode Title="Requests Property " Url="html/P_KomfoSharp_Sessions_NonAuthenticated_INonAuthenticatedSession_Requests.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="a536789d-04d3-4e2d-8f6e-b27c5da6e8ec" Title="INonAuthenticatedSession Methods" Url="html/Methods_T_KomfoSharp_Sessions_NonAuthenticated_INonAuthenticatedSession.htm">
+            <HelpTOCNode Title="ExecuteAsync Method " Url="html/M_KomfoSharp_Sessions_NonAuthenticated_INonAuthenticatedSession_ExecuteAsync.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="8921ffec-8247-4f3d-9a6e-d56a6d08818d" Title="NonAuthenticatedSession Class" Url="html/T_KomfoSharp_Sessions_NonAuthenticated_NonAuthenticatedSession.htm">
+          <HelpTOCNode Id="ed4ec4eb-259c-47ba-ae47-1713264735f5" Title="NonAuthenticatedSession Constructor " Url="html/Overload_KomfoSharp_Sessions_NonAuthenticated_NonAuthenticatedSession__ctor.htm">
+            <HelpTOCNode Title="NonAuthenticatedSession Constructor (IConfigurationProvider)" Url="html/M_KomfoSharp_Sessions_NonAuthenticated_NonAuthenticatedSession__ctor.htm" />
+            <HelpTOCNode Title="NonAuthenticatedSession Constructor (IConfigurationProvider, IKomfoProvider)" Url="html/M_KomfoSharp_Sessions_NonAuthenticated_NonAuthenticatedSession__ctor_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="84885c3f-53f5-4844-bb73-801750650191" Title="NonAuthenticatedSession Properties" Url="html/Properties_T_KomfoSharp_Sessions_NonAuthenticated_NonAuthenticatedSession.htm">
+            <HelpTOCNode Title="Requests Property " Url="html/P_KomfoSharp_Sessions_NonAuthenticated_NonAuthenticatedSession_Requests.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="4c6d9c6f-65f2-45f2-bd1a-47d918ebc3cd" Title="NonAuthenticatedSession Methods" Url="html/Methods_T_KomfoSharp_Sessions_NonAuthenticated_NonAuthenticatedSession.htm">
+            <HelpTOCNode Title="Dispose Method " Url="html/M_KomfoSharp_Sessions_NonAuthenticated_NonAuthenticatedSession_Dispose.htm" />
+            <HelpTOCNode Title="ExecuteAsync Method " Url="html/M_KomfoSharp_Sessions_NonAuthenticated_NonAuthenticatedSession_ExecuteAsync.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="5f097bbf-1d17-4456-a7c7-6da6945beadd" Title="KomfoSharp.Sessions.NonAuthenticated.Requests.OAuth20.Tokens" Url="html/N_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens.htm">
+        <HelpTOCNode Id="e32eda0a-7916-485f-9300-ca73f5dc6144" Title="ITokensRequest Interface" Url="html/T_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_ITokensRequest.htm">
+          <HelpTOCNode Id="ea4d75c4-5005-49be-abb3-c6d7146e6770" Title="ITokensRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_ITokensRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_ITokensRequest_Configuration.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="326762df-2fd4-4774-add7-02180aa3c5a7" Title="ITokensResponse Interface" Url="html/T_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_ITokensResponse.htm">
+          <HelpTOCNode Id="60938752-52cc-4882-8d48-eceb41ebef35" Title="ITokensResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_ITokensResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_ITokensResponse_Data.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="28475d73-eae7-4de0-8f90-73b1eb8a10a0" Title="TokensRequest Class" Url="html/T_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensRequest.htm">
+          <HelpTOCNode Title="TokensRequest Constructor " Url="html/M_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensRequest__ctor.htm" />
+          <HelpTOCNode Id="cc6016a4-1d09-498e-b38a-4ebc6177480b" Title="TokensRequest Properties" Url="html/Properties_T_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensRequest.htm">
+            <HelpTOCNode Title="Configuration Property " Url="html/P_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensRequest_Configuration.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="TokensRequest Methods" Url="html/Methods_T_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensRequest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a8afbc5f-22d8-431d-897b-2f49c5db4173" Title="TokensRequestConfiguration Class" Url="html/T_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensRequestConfiguration.htm">
+          <HelpTOCNode Title="TokensRequestConfiguration Constructor " Url="html/M_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensRequestConfiguration__ctor.htm" />
+          <HelpTOCNode Id="88c76797-6c0e-4ebc-aa64-25bbc7366881" Title="TokensRequestConfiguration Properties" Url="html/Properties_T_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensRequestConfiguration.htm">
+            <HelpTOCNode Title="ClientId Property " Url="html/P_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensRequestConfiguration_ClientId.htm" />
+            <HelpTOCNode Title="ClientSecret Property " Url="html/P_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensRequestConfiguration_ClientSecret.htm" />
+            <HelpTOCNode Title="Scopes Property " Url="html/P_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensRequestConfiguration_Scopes.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="TokensRequestConfiguration Methods" Url="html/Methods_T_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensRequestConfiguration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="16f03aa1-9be6-482f-8bb1-47f6040c5d00" Title="TokensResponse Class" Url="html/T_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensResponse.htm">
+          <HelpTOCNode Title="TokensResponse Constructor " Url="html/M_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensResponse__ctor.htm" />
+          <HelpTOCNode Id="71eb6cef-ee17-48fd-8fe7-1687691164e7" Title="TokensResponse Properties" Url="html/Properties_T_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensResponse.htm">
+            <HelpTOCNode Title="Data Property " Url="html/P_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensResponse_Data.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="TokensResponse Methods" Url="html/Methods_T_KomfoSharp_Sessions_NonAuthenticated_Requests_OAuth20_Tokens_TokensResponse.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
