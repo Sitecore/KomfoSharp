@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="KomfoSharp.Model.Engagement">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAIAAA=</HashCode>
+      <FileName>Model\Engagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KomfoSharp.Model.Tweet">
+    <Position X="1.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAFAAAgAAAAgEAAAAAAAAAAAAAAAAAAAAAACAAIAAE=</HashCode>
+      <FileName>Model\Tweet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KomfoSharp.Model.Metric">
+    <Position X="7.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAEAAAAAAAAAAAAAAAEABAAAAACAAAAA=</HashCode>
+      <FileName>Model\Metric.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Engagement" />
+      <Property Name="Sentiment" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="KomfoSharp.Model.Sentiment">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAgAAAAAAAAAAAAAIAAAAAAAAACAAAA=</HashCode>
+      <FileName>Model\Sentiment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Score" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="KomfoSharp.Model.SentimentScoreValue">
+    <Position X="10.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAACAAAA=</HashCode>
+      <FileName>Model\SentimentScoreValue.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

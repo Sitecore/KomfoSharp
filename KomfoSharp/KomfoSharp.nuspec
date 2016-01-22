@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>KomfoSharp</id>
+        <version>1.0.0</version>
+        <title>KomfoSharp</title>
+        <authors>Sitecore A/S</authors>
+        <owners>Sitecore A/S</owners>
+        <licenseUrl>https://github.com/Sitecore/KomfoSharp/blob/master/LICENSE.txt</licenseUrl>
+        <projectUrl>https://github.com/Sitecore/KomfoSharp</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>KomfoSharp is a Komfo API library that simplifies adding Komfo to your .NET desktop and web applications. You can build your own integration layer with Komfo utilizing the fluent API provided by KomfoSharp.</description>
+        <summary>.NET SDK for Komfo</summary>
+        <releaseNotes>KomfoSharp 1.0 supports Komfo API v1, including:
+- Authentication
+- Twitter followers
+- Advertising</releaseNotes>
+        <copyright>Copyright © Sitecore A/S</copyright>
+        <language>en-US</language>
+        <tags>sitecore komfo komfosharp sdk .net c# fluent api http rest wrapper json</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="Newtonsoft.Json" version="6.0.5" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\release\KomfoSharp.dll" target="lib\net45\KomfoSharp.dll" />
+        <file src="bin\release\KomfoSharp.dll.config" target="lib\net45\KomfoSharp.dll.config" />
+        <file src="bin\release\KomfoSharp.XML" target="lib\net45\KomfoSharp.XML" />
+    </files>
+</package>

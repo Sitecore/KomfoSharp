@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F30F21F-9C16-4A57-81AD-8568682B7E01}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KomfoSharp</RootNamespace>
+    <AssemblyName>KomfoSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\KomfoSharp.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\KomfoSharp.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.5\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\Configuration.cs" />
+    <Compile Include="Configuration\Endpoints\CampaignCustomAudiencesEndpoint.cs" />
+    <Compile Include="Configuration\Endpoints\CampaignsEndpoint.cs" />
+    <Compile Include="Configuration\Endpoints\CustomAudienceEndpoint.cs" />
+    <Compile Include="Configuration\Endpoints\CustomAudiencesEndpoint.cs" />
+    <Compile Include="Configuration\Endpoints\CustomAudienceStatusEndpoint.cs" />
+    <Compile Include="Configuration\Endpoints\CustomAudienceUsersEndpoint.cs" />
+    <Compile Include="Configuration\Endpoints\EndpointBase.cs" />
+    <Compile Include="Configuration\EndpointsConfiguration.cs" />
+    <Compile Include="Configuration\Endpoints\MetricsEndpoint.cs" />
+    <Compile Include="Configuration\Endpoints\StreamEndpoint.cs" />
+    <Compile Include="Configuration\Endpoints\TokensEndpoint.cs" />
+    <Compile Include="Configuration\PollingConfiguration.cs" />
+    <Compile Include="Configuration\Providers\AppConfig\AppConfigConfigurationProvider.cs" />
+    <Compile Include="Configuration\Providers\IXmlSource.cs" />
+    <Compile Include="Configuration\Providers\XmlConfigurationProviderBase.cs" />
+    <Compile Include="Configuration\Providers\IConfigurationProvider.cs" />
+    <Compile Include="Configuration\Providers\AppConfig\KomfoSharpSectionHandler.cs" />
+    <Compile Include="Diagnostics\Assert.cs" />
+    <Compile Include="IKomfoSessions.cs" />
+    <Compile Include="KomfoSessions.cs" />
+    <Compile Include="Model\Campaign.cs" />
+    <Compile Include="Model\CustomAudience.cs" />
+    <Compile Include="Model\CustomAudienceStatus.cs" />
+    <Compile Include="Model\Engagement.cs" />
+    <Compile Include="Model\MetricFields.cs" />
+    <Compile Include="Model\Token.cs" />
+    <Compile Include="Model\TokenScopes.cs" />
+    <Compile Include="Model\Tweet.cs" />
+    <Compile Include="Model\Metric.cs" />
+    <Compile Include="Model\Sentiment.cs" />
+    <Compile Include="Model\SentimentScoreValue.cs" />
+    <Compile Include="Model\TweetFields.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provider\CustomAudienceUserIdentificationType.cs" />
+    <Compile Include="Provider\Extensions\DateTimeExtensions.cs" />
+    <Compile Include="Provider\IKomfoProvider.cs" />
+    <Compile Include="Provider\ISha256Hash.cs" />
+    <Compile Include="Provider\Json\Converters\SecondsToTimeSpanConverter.cs" />
+    <Compile Include="Provider\KomfoProvider.cs" />
+    <Compile Include="Provider\KomfoProviderException.cs" />
+    <Compile Include="Provider\KomfoStatusCode.cs" />
+    <Compile Include="Provider\Sha256Hash.cs" />
+    <Compile Include="Sessions\Authenticated\AuthenticatedSession.cs" />
+    <Compile Include="Sessions\Authenticated\AuthenticatedSessionBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\AuthenticatedSessionConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Fluent\IClientIdCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Fluent\IClientSecretCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Fluent\IScopesCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Fluent\ITokenCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Fluent\ITokenCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Fluent\IWithTokenRenewalCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Fluent\IWithTokenRenewalCalling.cs" />
+    <Compile Include="Sessions\Authenticated\IAuthenticatedSession.cs" />
+    <Compile Include="Sessions\Authenticated\IAuthenticatedSessionBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\CampaignsRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\CampaignsRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\CampaignsRequestConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\CampaignsResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\CampaignCustomAudiencesRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\CampaignCustomAudiencesRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\CampaignCustomAudiencesRequestConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\CampaignCustomAudiencesResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Fluent\ICustomAudiencesCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Fluent\IWithPollingCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\ICampaignCustomAudiencesRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\ICampaignCustomAudiencesRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\ICampaignCustomAudiencesResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Add\AddCustomAudienceToCampaignRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Add\AddCustomAudienceToCampaignRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Add\AddCustomAudienceToCampaignResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Add\Fluent\IAddCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Add\Fluent\IWithPollingCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Fluent\ICustomAudienceIdCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Remove\Fluent\IRemoveCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Remove\Fluent\IWithPollingCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Remove\RemoveCustomAudienceFromCampaignRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Remove\RemoveCustomAudienceFromCampaignRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Remove\RemoveCustomAudienceFromCampaignResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\UpdateCustomAudiencesInCampaignRequestConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Add\IAddCustomAudienceToCampaignRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Add\IAddCustomAudienceToCampaignRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Add\IAddCustomAudienceToCampaignResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\IUpdateCustomAudiencesInCampaignBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Remove\IRemoveCustomAudienceFromCampaignRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Remove\IRemoveCustomAudienceFromCampaignRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\Remove\IRemoveCustomAudienceFromCampaignResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\UpdateCustomAudiencesInCampaignBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\UpdateCustomAudiencesInCampaignConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\CustomAudiences\Update\UpdateCustomAudiencesInCampaignResponseData.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\Fluent\ICampaignIdCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Campaign\Fluent\ICampaignIdCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Fluent\ICampaignsCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Fluent\ICampaignsCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\Fluent\IWithPollingCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\ICampaignsRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\ICampaignsRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\ICampaignsResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\Fluent\IDescriptionCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\Fluent\IExternalCampaignIdCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\Fluent\IExternalCampaignIdCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\Fluent\IExternalCampaignKeyCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\Fluent\IExternalCampaignKeyCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\Fluent\INameCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\Fluent\INewCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\Fluent\IWithPollingCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\NewCampaignBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\NewCampaignRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\INewCampaignBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\INewCampaignRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\INewCampaignRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\INewCampaignResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\NewCampaignRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\NewCampaignRequestConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\NewCampaignResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Campaigns\New\NewCampaignResponseData.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudiencesRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudiencesRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudiencesRequestConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudiencesResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\CustomAudienceDeleteRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\CustomAudienceDeleteRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\CustomAudienceDeleteRequestConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\CustomAudienceDeleteResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\CustomAudienceRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\CustomAudienceRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\CustomAudienceRequestConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\CustomAudienceResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Fluent\ICustomAudienceIdCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Fluent\IDeleteCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Fluent\IWithPollingCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\ICustomAudienceDeleteRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\ICustomAudienceDeleteResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\ICustomAudienceRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\ICustomAudienceRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\ICustomAudienceResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\ICustomAudienceDeleteRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Status\CustomAudienceStatusRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Status\CustomAudienceStatusRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Status\CustomAudienceStatusRequestConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Status\CustomAudienceStatusResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Status\Fluent\IStatusCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Status\Fluent\IStatusCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Status\Fluent\IWithPollingCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Status\ICustomAudienceStatusRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Status\ICustomAudienceStatusRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Status\ICustomAudienceStatusResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Fluent\IUsersCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Fluent\IUsersCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Add\AddUsersToCustomAudienceRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Add\AddUsersToCustomAudienceRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Add\AddUsersToCustomAudienceResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Add\Fluent\IAddCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Add\Fluent\IWithPollingCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Add\IAddUsersToCustomAudienceRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Add\IAddUsersToCustomAudienceRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Add\IAddUsersToCustomAudienceResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\UpdateUsersInCustomAudienceDataType.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Fluent\IDataCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Fluent\IEmailsCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Fluent\IEmailsCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Fluent\IFacebookApplicationsIdsCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Fluent\IFacebookApplicationsIdsCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Fluent\IFacebookIdsCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Fluent\IFacebookIdsCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Fluent\IHashableCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Fluent\IPhoneNumbersCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Fluent\IPhoneNumbersCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Fluent\IWithHashingCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Fluent\IWithHashingCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\IUpdateUsersInCustomAudienceBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Remove\Fluent\IRemoveCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Remove\Fluent\IWithPollingCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Remove\IRemoveUsersFromCustomAudienceRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Remove\IRemoveUsersFromCustomAudienceRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Remove\IRemoveUsersFromCustomAudienceResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Remove\RemoveUsersFromCustomAudienceRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Remove\RemoveUsersFromCustomAudienceRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\Remove\RemoveUsersFromCustomAudienceResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\UpdateUsersInCustomAudienceBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\UpdateUsersInCustomAudienceConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\UpdateUsersInCustomAudienceRequestConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\CustomAudience\Users\Update\UpdateUsersInCustomAudienceResponseData.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\Fluent\ICustomAudiencesCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\Fluent\IWithPollingCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\ICustomAudiencesRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\ICustomAudiencesRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\ICustomAudiencesResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\New\Fluent\IDescriptionCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\New\Fluent\INameCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\New\Fluent\INewCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\New\Fluent\IWithPollingCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\New\NewCustomAudienceBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\New\INewCustomAudienceBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\New\INewCustomAudienceRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\New\INewCustomAudienceRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\New\INewCustomAudienceResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\New\NewCustomAudienceRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\New\NewCustomAudienceRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\New\NewCustomAudienceRequestConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\New\NewCustomAudienceResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\CustomAudiences\New\NewCustomAudienceResponseData.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Fluent\IAdsCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Fluent\IAdsCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Fluent\ICustomAudienceIdCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Fluent\ICustomAudiencesCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Fluent\IDescriptionCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Ads\Fluent\INameCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\AuthenticatedRequestsBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\BaseRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\BaseRequestConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Fluent\IAddCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Fluent\IAttemptsCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Fluent\IAttemptsCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Fluent\IDeleteCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Fluent\IIntervalCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Fluent\IIntervalCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Fluent\INewCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Fluent\IRemoveCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Fluent\IWithPollingCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\IAuthenticatedRequestsBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\IWithPollingBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\PollingRequestConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Fluent\ITwitterCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Fluent\ITwitterCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Fluent\IFieldsCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Fluent\IFollowersCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Fluent\IFollowersCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Fluent\ITwitterHandlesCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Metrics\Fluent\IFieldsCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Metrics\Fluent\IMetricsCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Metrics\Fluent\IMetricsCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Metrics\Fluent\ITwitterHandlesCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Metrics\Fluent\IWithPollingCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Metrics\IMetricsRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Metrics\IMetricsRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Metrics\IMetricsResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Metrics\MetricsRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Metrics\MetricsRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Metrics\MetricsRequestConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Metrics\MetricsResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Stream\Fluent\IFieldsCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Stream\Fluent\ISinceCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Stream\Fluent\ISinceCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Stream\Fluent\IStreamCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Stream\Fluent\IStreamCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Stream\Fluent\ITwitterHandlesCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Stream\Fluent\IUntilCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Stream\Fluent\IUntilCalling.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Stream\Fluent\IWithPollingCalled.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Stream\IStreamRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Stream\IStreamRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Stream\IStreamResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Stream\StreamRequest.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Stream\StreamRequestBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Stream\StreamRequestConfiguration.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\Twitter\Followers\Stream\StreamResponse.cs" />
+    <Compile Include="Sessions\Authenticated\Requests\WithPollingBuilder.cs" />
+    <Compile Include="Sessions\Authenticated\TokenRenewalConfiguration.cs" />
+    <Compile Include="Sessions\Fluent\IClientIdCalling.cs" />
+    <Compile Include="Sessions\Fluent\IClientSecretCalling.cs" />
+    <Compile Include="Sessions\Fluent\ICreateCalling.cs" />
+    <Compile Include="Sessions\Fluent\IScopesCalling.cs" />
+    <Compile Include="Sessions\NonAuthenticated\INonAuthenticatedSession.cs" />
+    <Compile Include="Sessions\NonAuthenticated\INonAuthenticatedSessionBuilder.cs" />
+    <Compile Include="Sessions\NonAuthenticated\NonAuthenticatedSession.cs" />
+    <Compile Include="Sessions\NonAuthenticated\NonAuthenticatedSessionBuilder.cs" />
+    <Compile Include="Sessions\NonAuthenticated\Requests\INonAuthenticatedRequestsBuilder.cs" />
+    <Compile Include="Sessions\NonAuthenticated\Requests\NonAuthenticatedRequestsBuilder.cs" />
+    <Compile Include="Sessions\NonAuthenticated\Requests\OAuth20\Fluent\IOAuth20Called.cs" />
+    <Compile Include="Sessions\NonAuthenticated\Requests\OAuth20\Fluent\IOAuth20Calling.cs" />
+    <Compile Include="Sessions\NonAuthenticated\Requests\OAuth20\Tokens\Fluent\IClientIdCalled.cs" />
+    <Compile Include="Sessions\NonAuthenticated\Requests\OAuth20\Tokens\Fluent\IClientSecretCalled.cs" />
+    <Compile Include="Sessions\NonAuthenticated\Requests\OAuth20\Tokens\Fluent\IScopesCalled.cs" />
+    <Compile Include="Sessions\NonAuthenticated\Requests\OAuth20\Tokens\Fluent\ITokensCalled.cs" />
+    <Compile Include="Sessions\NonAuthenticated\Requests\OAuth20\Tokens\Fluent\ITokensCalling.cs" />
+    <Compile Include="Sessions\NonAuthenticated\Requests\OAuth20\Tokens\ITokensRequest.cs" />
+    <Compile Include="Sessions\NonAuthenticated\Requests\OAuth20\Tokens\ITokensRequestBuilder.cs" />
+    <Compile Include="Sessions\NonAuthenticated\Requests\OAuth20\Tokens\ITokensResponse.cs" />
+    <Compile Include="Sessions\NonAuthenticated\Requests\OAuth20\Tokens\TokensRequest.cs" />
+    <Compile Include="Sessions\NonAuthenticated\Requests\OAuth20\Tokens\TokensRequestBuilder.cs" />
+    <Compile Include="Sessions\NonAuthenticated\Requests\OAuth20\Tokens\TokensRequestConfiguration.cs" />
+    <Compile Include="Sessions\NonAuthenticated\Requests\OAuth20\Tokens\TokensResponse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="key.snk" />
+    <None Include="KomfoSharp.nuspec" />
+    <None Include="Model\Diagrams\Campaigns.cd" />
+    <None Include="Model\Diagrams\CustomAudiences.cd" />
+    <None Include="Model\Diagrams\OAuth20Tokens.cd" />
+    <None Include="Model\Diagrams\TwitterFollowers.cd" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Target Name="AfterBuild" Condition=" '$(Configuration)' == 'Release'">
+    <Exec Command="nuget pack KomfoSharp.nuspec">
+    </Exec>
+  </Target>
+</Project>

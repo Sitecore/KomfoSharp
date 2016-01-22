@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomfoSharp", "KomfoSharp\KomfoSharp.csproj", "{1F30F21F-9C16-4A57-81AD-8568682B7E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomfoSharp.Tests", "KomfoSharp.Tests\KomfoSharp.Tests.csproj", "{A03D4BF7-5267-4877-968A-CB848DF15B93}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "KomfoSharp.Documentation", "KomfoSharp.Documentation\KomfoSharp.Documentation.shfbproj", "{2B311CF3-578C-4476-B998-56544DCF454F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomfoSharp.Scenarios", "KomfoSharp.Scenarios\KomfoSharp.Scenarios.csproj", "{B7EB1B79-C3A0-40CF-87B0-DEFC67E1A622}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F30F21F-9C16-4A57-81AD-8568682B7E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F30F21F-9C16-4A57-81AD-8568682B7E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F30F21F-9C16-4A57-81AD-8568682B7E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F30F21F-9C16-4A57-81AD-8568682B7E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A03D4BF7-5267-4877-968A-CB848DF15B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A03D4BF7-5267-4877-968A-CB848DF15B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A03D4BF7-5267-4877-968A-CB848DF15B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A03D4BF7-5267-4877-968A-CB848DF15B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B311CF3-578C-4476-B998-56544DCF454F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B311CF3-578C-4476-B998-56544DCF454F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7EB1B79-C3A0-40CF-87B0-DEFC67E1A622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7EB1B79-C3A0-40CF-87B0-DEFC67E1A622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7EB1B79-C3A0-40CF-87B0-DEFC67E1A622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7EB1B79-C3A0-40CF-87B0-DEFC67E1A622}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
